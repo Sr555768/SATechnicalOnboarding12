@@ -12,17 +12,9 @@
             margin: 0;
             padding: 0;
             overflow-x: hidden; /* Added to prevent horizontal scroll */
-        }
-
-        /* Background */
-        #background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            background: url('background.jpg') no-repeat center center/cover;
+            /* Background */
+            background: url('https://mlsapro.com/img/shapes/wavy-shape.png') no-repeat center center/cover;
+            /* If you want different backgrounds for Android and other devices, you can use media queries */
         }
 
         /* Sections */
@@ -73,9 +65,6 @@
 </head>
 
 <body>
-    <!-- Background -->
-    <div id="background"></div>
-
     <!-- Founders Section -->
     <section id="founders" class="section">
         <h1 class="section-title">Founders</h1>
@@ -160,7 +149,7 @@
             </div>
             <!-- Faculty Member 2 -->
             <div class="profile-card">
-                <img src="founder1.jpgg" alt="Faculty Member 2">
+                <img src="founder1.jpg" alt="Faculty Member 2">
                 <div class="content">
                     <h2>Faculty Member 2</h2>
                     <p>Description: Curabitur fringilla dolor at sapien facilisis, ac aliquam ligula consectetur.</p>
@@ -169,20 +158,6 @@
             <!-- Add more faculty members as needed -->
         </div>
     </section>
-       <script>
-        function preloadImages() {
-            var images = ['founder1.jpg', 'founder2.jpg', 'lead1.jpg', 'lead2.jpg', 'lead3.jpg', 'lead4.jpg', 'lead5.jpg', 'faculty1.jpg', 'faculty2.jpg'];
-            for (var i = 0; i < images.length; i++) {
-                var img = new Image();
-                img.src = images[i];
-            }
-        }
-        preloadImages();
-
-        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-        var backgroundUrl = isMobile ? 'https://mlsapro.com/img/shapes/wavy-shape.png' : 'https://mlsapro.com/img/shapes/wavy-shape1.png';
-        document.getElementById('mlsapro').style.backgroundImage = 'url(' + backgroundUrl + ')';
-    </script>
 </body>
 
 </html>
