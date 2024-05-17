@@ -63,6 +63,18 @@
             font-size: 16px;
             color: #666;
         }
+
+        @media screen and (min-width: 768px) {
+            .grid-container {
+                grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Three columns for larger screens */
+            }
+        }
+
+        @media screen and (min-width: 1200px) {
+            .grid-container {
+                grid-template-columns: repeat(6, minmax(300px, 1fr)); /* Maximum of six columns for very large screens */
+            }
+        }
     </style>
 </head>
 
@@ -71,7 +83,34 @@
     <section id="founders" class="section">
         <h1 class="section-title">Founders</h1>
         <div class="grid-container">
-            <!-- Founder 1 -->
+            <!-- Founder profiles -->
+              <!-- Founder 1 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Founder 1">
+                <div class="content">
+                    <h2>Shahzal rehman</h2>
+                    <p>Description: Masters In designing, MLSA Youngest title Holder</p>
+                </div>
+            </div>
+            <!-- Founder 2 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Founder 2">
+                <div class="content">
+                    <h2>Kinza kanwal</h2>
+                    <p>Description: Winner And Qualifier of regional MS Imagine Cup</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Founder 2">
+                <div class="content">
+                    <h2>Anza</h2>
+                    <p>Description:@GDSC-Lead</p>
+                </div>
+            </div>
+            <!-- Additional founders can be added here -->
+        </div>
+    </section>
+  <!-- Founder 1 -->
             <div class="profile-card">
                 <img src="founder1.jpg" alt="Founder 1">
                 <div class="content">
@@ -98,10 +137,14 @@
         </div>
     </section>
 
+        </div>
+    </section>
+
     <!-- Leads Section -->
     <section id="leads" class="section">
         <h1 class="section-title">Leads</h1>
         <div class="grid-container">
+            <!-- Lead profiles -->
             <!-- Lead 1 -->
             <div class="profile-card">
                 <img src="founder1.jpg" alt="Lead 1">
@@ -130,8 +173,35 @@
                     <h2>Aizal</h2>
                     <p>Description: Enterpuner</p>
                 </div>
+            </div> <!-- Lead 1 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 1">
+                <div class="content">
+                    <h2>Yuhaan</h2>
+                    <p>Description: GDSC Lead</p>
+                </div>
             </div>
-            <!-- Additional leads can be added here -->
+            <!-- Lead 2 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 2">
+                <div class="content">
+                    <h2>Nehaal</h2>
+                    <p>Description: AWS-Certified</p>
+                </div>
+            </div>
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 2">
+                <div class="content">
+                    <h2>Yusaf</h2>
+                    <p>Description: @mangemental-Tech </p>
+                </div>
+            </div><div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 2">
+                <div class="content">
+                    <h2>Aizal</h2>
+                    <p>Description: Enterpuner</p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -139,6 +209,7 @@
     <section id="faculty" class="section">
         <h1 class="section-title">Faculty Members</h1>
         <div class="grid-container">
+            <!-- Faculty profiles -->
             <!-- Faculty Member 1 -->
             <div class="profile-card">
                 <img src="founder1.jpg" alt="Faculty Member 1">
