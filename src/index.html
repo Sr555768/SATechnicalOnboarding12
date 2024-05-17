@@ -11,6 +11,24 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #mlsapro {
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .container {
@@ -53,11 +71,11 @@
             height: auto;
         }
 
-        .profile-card .details {
+        .profile-card .content {
             padding: 20px;
         }
 
-        .profile-card h3 {
+        .profile-card h2 {
             font-size: 18px;
             margin-top: 0;
         }
@@ -69,102 +87,121 @@
 </head>
 
 <body>
-    <div class="container">
+    <form class="container" id="mlsapro">
         <div class="search-bar">
             <input type="text" placeholder="Search MLSAPRO Faculty">
         </div>
         <div class="search-results">
-           <!-- Community Search Image -->
-    <img src="community_search_image.jpg" alt="Community Search" class="community-search-img">
+            <!-- Founders Section -->
+            <section id="founders">
+                <h1 class="section-title">Founders</h1>
+                <div class="grid-container">
+                    <!-- Founder 1 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Founder 1">
+                        <div class="content">
+                            <h2>Founder 1</h2>
+                            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend justo.</p>
+                        </div>
+                    </div>
+                    <!-- Founder 2 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Founder 2">
+                        <div class="content">
+                            <h2>Founder 2</h2>
+                            <p>Description: Vestibulum non mauris quis lorem hendrerit ultricies.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Founders Section -->
-    <section id="founders">
-        <h1 class="section-title">Founders</h1>
-        <div class="grid-container">
-            <!-- Founder 1 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Founder 1</h2>
-                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend justo.</p>
+            <!-- Leads Section -->
+            <section id="leads">
+                <h1 class="section-title">Leads</h1>
+                <div class="grid-container">
+                    <!-- Lead 1 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Lead 1">
+                        <div class="content">
+                            <h2>Lead 1</h2>
+                            <p>Description: Phasellus maximus libero ac quam ultricies, at mollis sapien pretium.</p>
+                        </div>
+                    </div>
+                    <!-- Lead 2 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Lead 2">
+                        <div class="content">
+                            <h2>Lead 2</h2>
+                            <p>Description: Duis euismod fermentum tellus nec tincidunt. Nulla facilisi.</p>
+                        </div>
+                    </div>
+                    <!-- Lead 3 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Lead 3">
+                        <div class="content">
+                            <h2>Lead 3</h2>
+                            <p>Description: Ut consectetur arcu et arcu venenatis tincidunt.</p>
+                        </div>
+                    </div>
+                    <!-- Lead 4 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Lead 4">
+                        <div class="content">
+                            <h2>Lead 4</h2>
+                            <p>Description: Integer quis eros at metus condimentum accumsan.</p>
+                        </div>
+                    </div>
+                    <!-- Lead 5 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Lead 5">
+                        <div class="content">
+                            <h2>Lead 5</h2>
+                            <p>Description: Proin vel mauris vel sapien fermentum congue.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <!-- Founder 2 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Founder 2</h2>
-                    <p>Description: Vestibulum non mauris quis lorem hendrerit ultricies.</p>
+            </section>
+
+            <!-- Faculty Section -->
+            <section id="faculty">
+                <h1 class="section-title">Faculty Members</h1>
+                <div class="grid-container">
+                    <!-- Faculty Member 1 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Faculty Member 1">
+                        <div class="content">
+                            <h2>Faculty Member 1</h2>
+                            <p>Description: Fusce convallis erat vitae diam lobortis, ac consequat nisi fringilla.</p>
+                        </div>
+                    </div>
+                    <!-- Faculty Member 2 -->
+                    <div class="profile-card">
+                        <img src="founder1.jpg" alt="Faculty Member 2">
+                        <div class="content">
+                            <h2>Faculty Member 2</h2>
+                            <p>Description: Curabitur fringilla dolor at sapien facilisis, ac aliquam ligula consectetur.</p>
+                        </div>
+                    </div>
+                    <!-- Add more faculty members as needed -->
                 </div>
-            </div>
+            </section>
         </div>
-    </section>
+    </form>
 
-    <!-- Leads Section -->
-    <section id="leads">
-        <h1 class="section-title">Leads</h1>
-        <div class="grid-container">
-            <!-- Lead 1 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Lead 1</h2>
-                    <p>Description: Phasellus maximus libero ac quam ultricies, at mollis sapien pretium.</p>
-                </div>
-            </div>
-            <!-- Lead 2 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Lead 2</h2>
-                    <p>Description: Duis euismod fermentum tellus nec tincidunt. Nulla facilisi.</p>
-                </div>
-            </div>
-            <!-- Lead 3 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Lead 3</h2>
-                    <p>Description: Ut consectetur arcu et arcu venenatis tincidunt.</p>
-                </div>
-            </div>
-            <!-- Lead 4 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Lead 4</h2>
-                    <p>Description: Integer quis eros at metus condimentum accumsan.</p>
-                </div>
-            </div>
-            <!-- Lead 5 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Lead 5</h2>
-                    <p>Description: Proin vel mauris vel sapien fermentum congue.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <script>
+        function preloadImages() {
+            var images = ['founder1.jpg', 'founder2.jpg', 'lead1.jpg', 'lead2.jpg', 'lead3.jpg', 'lead4.jpg', 'lead5.jpg', 'faculty1.jpg', 'faculty2.jpg'];
+            for (var i = 0; i < images.length; i++) {
+                var img = new Image();
+                img.src = images[i];
+            }
+        }
+        preloadImages();
 
-    <!-- Faculty Section -->
-    <section id="faculty">
-        <h1 class="section-title">Faculty Members</h1>
-        <div class="grid-container">
-            <!-- Faculty Member 1 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Faculty Member 1</h2>
-                    <p>Description: Fusce convallis erat vitae diam lobortis, ac consequat nisi fringilla.</p>
-                </div>
-            </div>
-            <!-- Faculty Member 2 -->
-            <div class="profile-card">
-                <div class="content">
-                    <h2>Faculty Member 2</h2>
-                    <p>Description: Curabitur fringilla dolor at sapien facilisis, ac aliquam ligula consectetur.</p>
-                </div>
-            </div>
-            <!-- Add more faculty members as needed -->
-        </div>
-    </section>
-</body>
-
-</html>
-    </div>
+        var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+        var backgroundUrl = isMobile ? 'https://mlsapro.com/img/shapes/wavy-shape.png' : 'https://mlsapro.com/img/shapes/wavy-shape1.png';
+        document.getElementById('mlsapro').style.backgroundImage = 'url(' + backgroundUrl + ')';
+    </script>
 </body>
 
 </html>
