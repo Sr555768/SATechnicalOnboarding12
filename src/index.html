@@ -1,138 +1,3 @@
-<!-- favicon  -->
-<link rel="shortcut icon" type="image/jpg" href="img\favicon\icon128.png"/>
-
-<!-- Scroll Bar  -->
-
-<style>
-
-body {
-    /* overlay scrollbar to transparent */
-    overflow: overlay;
-}
-
-  ::-webkit-scrollbar {
-    /* rounded thumb size : set as 20px */
-    width: 15px;
-    background-color: transparent;
-  }
-  
-  ::-webkit-scrollbar-track {
-  /* scroll bar traparent : initalizing colorless & border radius as zero */
-  border-radius: 0px;
-  }
-  
-  ::-webkit-scrollbar-thumb {
-  /* rounded thumb : Border Radius */
-  border-radius: 20px;
-
-  /* height of thumb */
-  height: 40px;
-
-  /* thumb color */
-  background-color:rgb(179,0,255); background: linear-gradient(90deg, rgba(179,0,255,1) 5%, rgba(231,0,255,1) 50%, rgba(255,0,254,1) 95%);
-  }
-  
-  /* thumb hover color */
-  ::-webkit-scrollbar-thumb:hover {
-  background-color:rgb(179,0,255); background: linear-gradient(-90deg, rgba(179,0,255,1) 0%, rgba(231,0,255,1) 51%, rgba(255,0,254,1) 100%); 
-  }
-  
-  </style>
-
- <!-- Scroll Bar Ended  -->
-
- 
-    <!-- Chatbot Start -->
-    <!-- Start Messenger Plugin -->
-    <!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
-
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "856660438016598");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-
-        .login-container {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            width: 100%;
-        }
-
-        .login-container h2 {
-            text-align: center;
-        }
-
-        .login-container input[type="text"],
-        .login-container input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .login-container input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
-            background-color: #007bff;
-            color: #fff;
-            cursor: pointer;
-        }
-
-        .login-container input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-
-        #error-message {
-            color: red;
-            text-align: center;
-            display: none;
-        }
-    </style>
-<script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v16.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-      <!-- End Messenger Plugin -->
-      <!-- Chatbot End -->
-    
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -141,151 +6,170 @@ body {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shahzal Rehman</title>
     <style>
+        /* General Styles */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
+            overflow-x: hidden; /* Added to prevent horizontal scroll */
         }
 
-        #mlsapro {
-            background-size: cover;
-            background-position: center;
-            position: absolute;
+        /* Background */
+        #background {
+            position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            z-index: -1;
+            background: url('background.jpg') no-repeat center center/cover;
         }
 
-        .skill-box {
+        /* Sections */
+        .section {
+            padding: 50px 0;
             text-align: center;
-            margin: auto;
         }
 
-        .skill-box a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
+        .section-title {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #333;
         }
 
-        .skill-box a:hover {
-            background-color: #0056b3;
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .profile-card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .profile-card .content {
+            padding: 20px;
+        }
+
+        .profile-card h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .profile-card p {
+            font-size: 16px;
+            color: #666;
         }
     </style>
 </head>
 
 <body>
-       <div class="search-results">
-            <!-- Founders Section -->
-            <section id="founders">
-                <h1 class="section-title">Founders</h1>
-                <div class="grid-container">
-                    <!-- Founder 1 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Founder 1">
-                        <div class="content">
-                            <h2>Founder 1</h2>
-                            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend justo.</p>
-                        </div>
-                    </div>
-                    <!-- Founder 2 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Founder 2">
-                        <div class="content">
-                            <h2>Founder 2</h2>
-                            <p>Description: Vestibulum non mauris quis lorem hendrerit ultricies.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+    <!-- Background -->
+    <div id="background"></div>
 
-            <!-- Leads Section -->
-            <section id="leads">
-                <h1 class="section-title">Leads</h1>
-                <div class="grid-container">
-                    <!-- Lead 1 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Lead 1">
-                        <div class="content">
-                            <h2>Lead 1</h2>
-                            <p>Description: Phasellus maximus libero ac quam ultricies, at mollis sapien pretium.</p>
-                        </div>
-                    </div>
-                    <!-- Lead 2 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Lead 2">
-                        <div class="content">
-                            <h2>Lead 2</h2>
-                            <p>Description: Duis euismod fermentum tellus nec tincidunt. Nulla facilisi.</p>
-                        </div>
-                    </div>
-                    <!-- Lead 3 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Lead 3">
-                        <div class="content">
-                            <h2>Lead 3</h2>
-                            <p>Description: Ut consectetur arcu et arcu venenatis tincidunt.</p>
-                        </div>
-                    </div>
-                    <!-- Lead 4 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Lead 4">
-                        <div class="content">
-                            <h2>Lead 4</h2>
-                            <p>Description: Integer quis eros at metus condimentum accumsan.</p>
-                        </div>
-                    </div>
-                    <!-- Lead 5 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Lead 5">
-                        <div class="content">
-                            <h2>Lead 5</h2>
-                            <p>Description: Proin vel mauris vel sapien fermentum congue.</p>
-                        </div>
-                    </div>
+    <!-- Founders Section -->
+    <section id="founders" class="section">
+        <h1 class="section-title">Founders</h1>
+        <div class="grid-container">
+            <!-- Founder 1 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Founder 1">
+                <div class="content">
+                    <h2>Founder 1</h2>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend justo.</p>
                 </div>
-            </section>
-
-            <!-- Faculty Section -->
-            <section id="faculty">
-                <h1 class="section-title">Faculty Members</h1>
-                <div class="grid-container">
-                    <!-- Faculty Member 1 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Faculty Member 1">
-                        <div class="content">
-                            <h2>Faculty Member 1</h2>
-                            <p>Description: Fusce convallis erat vitae diam lobortis, ac consequat nisi fringilla.</p>
-                        </div>
-                    </div>
-                    <!-- Faculty Member 2 -->
-                    <div class="profile-card">
-                        <img src="founder1.jpg" alt="Faculty Member 2">
-                        <div class="content">
-                            <h2>Faculty Member 2</h2>
-                            <p>Description: Curabitur fringilla dolor at sapien facilisis, ac aliquam ligula consectetur.</p>
-                        </div>
-                    </div>
-                    <!-- Add more faculty members as needed -->
+            </div>
+            <!-- Founder 2 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Founder 2">
+                <div class="content">
+                    <h2>Founder 2</h2>
+                    <p>Description: Vestibulum non mauris quis lorem hendrerit ultricies.</p>
                 </div>
-            </section>
+            </div>
         </div>
-    </form>
+    </section>
 
-    <script>
+    <!-- Leads Section -->
+    <section id="leads" class="section">
+        <h1 class="section-title">Leads</h1>
+        <div class="grid-container">
+            <!-- Lead 1 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 1">
+                <div class="content">
+                    <h2>Lead 1</h2>
+                    <p>Description: Phasellus maximus libero ac quam ultricies, at mollis sapien pretium.</p>
+                </div>
+            </div>
+            <!-- Lead 2 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 2">
+                <div class="content">
+                    <h2>Lead 2</h2>
+                    <p>Description: Duis euismod fermentum tellus nec tincidunt. Nulla facilisi.</p>
+                </div>
+            </div>
+            <!-- Lead 3 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 3">
+                <div class="content">
+                    <h2>Lead 3</h2>
+                    <p>Description: Ut consectetur arcu et arcu venenatis tincidunt.</p>
+                </div>
+            </div>
+            <!-- Lead 4 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 4">
+                <div class="content">
+                    <h2>Lead 4</h2>
+                    <p>Description: Integer quis eros at metus condimentum accumsan.</p>
+                </div>
+            </div>
+            <!-- Lead 5 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Lead 5">
+                <div class="content">
+                    <h2>Lead 5</h2>
+                    <p>Description: Proin vel mauris vel sapien fermentum congue.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty" class="section">
+        <h1 class="section-title">Faculty Members</h1>
+        <div class="grid-container">
+            <!-- Faculty Member 1 -->
+            <div class="profile-card">
+                <img src="founder1.jpg" alt="Faculty Member 1">
+                <div class="content">
+                    <h2>Faculty Member 1</h2>
+                    <p>Description: Fusce convallis erat vitae diam lobortis, ac consequat nisi fringilla.</p>
+                </div>
+            </div>
+            <!-- Faculty Member 2 -->
+            <div class="profile-card">
+                <img src="founder1.jpgg" alt="Faculty Member 2">
+                <div class="content">
+                    <h2>Faculty Member 2</h2>
+                    <p>Description: Curabitur fringilla dolor at sapien facilisis, ac aliquam ligula consectetur.</p>
+                </div>
+            </div>
+            <!-- Add more faculty members as needed -->
+        </div>
+    </section>
+       <script>
         function preloadImages() {
             var images = ['founder1.jpg', 'founder2.jpg', 'lead1.jpg', 'lead2.jpg', 'lead3.jpg', 'lead4.jpg', 'lead5.jpg', 'faculty1.jpg', 'faculty2.jpg'];
             for (var i = 0; i < images.length; i++) {
@@ -299,7 +183,6 @@ body {
         var backgroundUrl = isMobile ? 'https://mlsapro.com/img/shapes/wavy-shape.png' : 'https://mlsapro.com/img/shapes/wavy-shape1.png';
         document.getElementById('mlsapro').style.backgroundImage = 'url(' + backgroundUrl + ')';
     </script>
-</body>
 </body>
 
 </html>
