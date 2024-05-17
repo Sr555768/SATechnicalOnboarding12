@@ -1,48 +1,160 @@
-<link rel="shortcut icon" type="image/jpg" href=".\favicon.png"/><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>MLSAPRO Faculty</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon/icon128.png">
+    <!-- Scroll Bar Styles -->
+    <style>
+        body {
+            overflow: overlay;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #2980b9, #2c3e50);
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+
+        ::-webkit-scrollbar {
+            width: 15px;
+            background-color: transparent;
+        }
+
+        ::-webkit-scrollbar-track {
+            border-radius: 0px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            border-radius: 20px;
+            height: 40px;
+            background-color: rgb(179, 0, 255);
+            background: linear-gradient(90deg, rgba(179, 0, 255, 1) 5%, rgba(231, 0, 255, 1) 50%, rgba(255, 0, 254, 1) 95%);
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: rgb(179, 0, 255);
+            background: linear-gradient(-90deg, rgba(179, 0, 255, 1) 0%, rgba(231, 0, 255, 1) 51%, rgba(255, 0, 254, 1) 100%);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .grid-item {
+            text-align: center;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+
+        .grid-item img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .name {
+            font-weight: bold;
+        }
+    </style>
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>MLSA PRO TEAM</h1>
-            <nav>
-                <ul>
-                    <li><a href="https://mlsapro.com">Home</a></li>
-                    
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <main class="main-content">
-        <section class="MLSA PRO TEAM ID CARDS">
-            <div class="container">
-                <h2>Our Faculty</h2>
-              <br>  
-<img src="./MLSAPRO-idCARD (1).png">
-            <br>  
-<img src="./MLSAPRO-idCARD (2).png">
-<br> 
-<img src="./MLSAPRO-idCARD (3).png">
-
+    <!-- Founders Section -->
+    <section id="founders">
+        <h1>Founders</h1>
+        <div class="grid-container">
+            <!-- Founder 1 -->
+            <div class="grid-item">
+                <img src="founder1.jpg" alt="Founder 1">
+                <div class="name">Founder 1 Name</div>
+                <div class="description">Founder 1 Description</div>
             </div>
-        </section>
-
-        
-
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2024 MLSAPRO.COM - All Rights Reserved</p>
+            <!-- Founder 2 -->
+            <div class="grid-item">
+                <img src="founder2.jpg" alt="Founder 2">
+                <div class="name">Founder 2 Name</div>
+                <div class="description">Founder 2 Description</div>
+            </div>
+            <!-- Founder 3 -->
+            <div class="grid-item">
+                <img src="founder3.jpg" alt="Founder 3">
+                <div class="name">Founder 3 Name</div>
+                <div class="description">Founder 3 Description</div>
+            </div>
+            <!-- Add more founders as needed -->
         </div>
-    </footer>
+    </section>
 
-    <button class="dark-mode-toggle">Dark Mode</button>
-    <script src="script.js"></script>
+    <!-- Lead Section -->
+    <section id="leads">
+        <h1>Leads</h1>
+        <div class="grid-container">
+            <!-- Lead 1 -->
+            <div class="grid-item">
+                <img src="lead1.jpg" alt="Lead 1">
+                <div class="name">Lead 1 Name</div>
+                <div class="description">Lead 1 Description</div>
+            </div>
+            <!-- Lead 2 -->
+            <div class="grid-item">
+                <img src="lead2.jpg" alt="Lead 2">
+                <div class="name">Lead 2 Name</div>
+                <div class="description">Lead 2 Description</div>
+            </div>
+            <!-- Lead 3 -->
+            <div class="grid-item">
+                <img src="lead3.jpg" alt="Lead 3">
+                <div class="name">Lead 3 Name</div>
+                <div class="description">Lead 3 Description</div>
+            </div>
+            <!-- Add more leads as needed -->
+        </div>
+    </section>
+
+    <!-- Faculty Section -->
+    <section id="faculty">
+        <h1>Faculty</h1>
+        <div class="grid-container">
+            <!-- Faculty Member 1 -->
+            <div class="grid-item">
+                <img src="faculty1.jpg" alt="Faculty Member 1">
+                <div class="name">Faculty Member 1 Name</div>
+                <div class="description">Faculty Member 1 Description</div>
+            </div>
+            <!-- Faculty Member 2 -->
+            <div class="grid-item">
+                <img src="faculty2.jpg" alt="Faculty Member 2">
+                <div class="name">Faculty Member 2 Name</div>
+                <div class="description">Faculty Member 2 Description</div>
+            </div>
+            <!-- Faculty Member 3 -->
+            <div class="grid-item">
+                <img src="faculty3.jpg" alt="Faculty Member 3">
+                <div class="name">Faculty Member 3 Name</div>
+                <div class="description">Faculty Member 3 Description</div>
+            </div>
+            <!-- Add more faculty members as needed -->
+        </div>
+    </section>
 </body>
+
 </html>
