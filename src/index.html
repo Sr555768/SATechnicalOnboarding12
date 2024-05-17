@@ -4,157 +4,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MLSAPRO Faculty</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon/icon128.png">
-    <!-- Scroll Bar Styles -->
+    <title>MLSAPRO Faculty Search</title>
     <style>
         body {
-            overflow: overlay;
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background: linear-gradient(135deg, #2980b9, #2c3e50);
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            color: #fff;
         }
 
-        ::-webkit-scrollbar {
-            width: 15px;
-            background-color: transparent;
-        }
-
-        ::-webkit-scrollbar-track {
-            border-radius: 0px;
-        }
-
-        ::-webkit-scrollbar-thumb {
-            border-radius: 20px;
-            height: 40px;
-            background-color: rgb(179, 0, 255);
-            background: linear-gradient(90deg, rgba(179, 0, 255, 1) 5%, rgba(231, 0, 255, 1) 50%, rgba(255, 0, 254, 1) 95%);
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background-color: rgb(179, 0, 255);
-            background: linear-gradient(-90deg, rgba(179, 0, 255, 1) 0%, rgba(231, 0, 255, 1) 51%, rgba(255, 0, 254, 1) 100%);
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
             padding: 20px;
-            justify-content: center;
         }
 
-        .grid-item {
-            text-align: center;
-            border-radius: 10px;
-            overflow: hidden;
+        .search-bar {
+            margin-bottom: 20px;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .search-results {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .profile-card {
+            background-color: #fff;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
             transition: transform 0.3s ease;
         }
 
-        .grid-item:hover {
-            transform: scale(1.05);
+        .profile-card:hover {
+            transform: translateY(-5px);
         }
 
-        .grid-item img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            margin-bottom: 10px;
+        .profile-card img {
+            width: 100%;
+            height: auto;
         }
 
-        .name {
-            font-weight: bold;
+        .profile-card .details {
+            padding: 20px;
+        }
+
+        .profile-card h3 {
+            font-size: 18px;
+            margin-top: 0;
+        }
+
+        .profile-card p {
+            margin: 10px 0;
         }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <div class="search-bar">
+            <input type="text" placeholder="Search MLSAPRO Faculty">
+        </div>
+        <div class="search-results">
+           <!-- Community Search Image -->
+    <img src="community_search_image.jpg" alt="Community Search" class="community-search-img">
+
     <!-- Founders Section -->
     <section id="founders">
-        <h1>Founders</h1>
+        <h1 class="section-title">Founders</h1>
         <div class="grid-container">
             <!-- Founder 1 -->
-            <div class="grid-item">
-                <img src="founder1.jpg" alt="Founder 1">
-                <div class="name">Founder 1 Name</div>
-                <div class="description">Founder 1 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Founder 1</h2>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et eleifend justo.</p>
+                </div>
             </div>
             <!-- Founder 2 -->
-            <div class="grid-item">
-                <img src="founder2.jpg" alt="Founder 2">
-                <div class="name">Founder 2 Name</div>
-                <div class="description">Founder 2 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Founder 2</h2>
+                    <p>Description: Vestibulum non mauris quis lorem hendrerit ultricies.</p>
+                </div>
             </div>
-            <!-- Founder 3 -->
-            <div class="grid-item">
-                <img src="founder3.jpg" alt="Founder 3">
-                <div class="name">Founder 3 Name</div>
-                <div class="description">Founder 3 Description</div>
-            </div>
-            <!-- Add more founders as needed -->
         </div>
     </section>
 
-    <!-- Lead Section -->
+    <!-- Leads Section -->
     <section id="leads">
-        <h1>Leads</h1>
+        <h1 class="section-title">Leads</h1>
         <div class="grid-container">
             <!-- Lead 1 -->
-            <div class="grid-item">
-                <img src="lead1.jpg" alt="Lead 1">
-                <div class="name">Lead 1 Name</div>
-                <div class="description">Lead 1 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Lead 1</h2>
+                    <p>Description: Phasellus maximus libero ac quam ultricies, at mollis sapien pretium.</p>
+                </div>
             </div>
             <!-- Lead 2 -->
-            <div class="grid-item">
-                <img src="lead2.jpg" alt="Lead 2">
-                <div class="name">Lead 2 Name</div>
-                <div class="description">Lead 2 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Lead 2</h2>
+                    <p>Description: Duis euismod fermentum tellus nec tincidunt. Nulla facilisi.</p>
+                </div>
             </div>
             <!-- Lead 3 -->
-            <div class="grid-item">
-                <img src="lead3.jpg" alt="Lead 3">
-                <div class="name">Lead 3 Name</div>
-                <div class="description">Lead 3 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Lead 3</h2>
+                    <p>Description: Ut consectetur arcu et arcu venenatis tincidunt.</p>
+                </div>
             </div>
-            <!-- Add more leads as needed -->
+            <!-- Lead 4 -->
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Lead 4</h2>
+                    <p>Description: Integer quis eros at metus condimentum accumsan.</p>
+                </div>
+            </div>
+            <!-- Lead 5 -->
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Lead 5</h2>
+                    <p>Description: Proin vel mauris vel sapien fermentum congue.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Faculty Section -->
     <section id="faculty">
-        <h1>Faculty</h1>
+        <h1 class="section-title">Faculty Members</h1>
         <div class="grid-container">
             <!-- Faculty Member 1 -->
-            <div class="grid-item">
-                <img src="faculty1.jpg" alt="Faculty Member 1">
-                <div class="name">Faculty Member 1 Name</div>
-                <div class="description">Faculty Member 1 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Faculty Member 1</h2>
+                    <p>Description: Fusce convallis erat vitae diam lobortis, ac consequat nisi fringilla.</p>
+                </div>
             </div>
             <!-- Faculty Member 2 -->
-            <div class="grid-item">
-                <img src="faculty2.jpg" alt="Faculty Member 2">
-                <div class="name">Faculty Member 2 Name</div>
-                <div class="description">Faculty Member 2 Description</div>
-            </div>
-            <!-- Faculty Member 3 -->
-            <div class="grid-item">
-                <img src="faculty3.jpg" alt="Faculty Member 3">
-                <div class="name">Faculty Member 3 Name</div>
-                <div class="description">Faculty Member 3 Description</div>
+            <div class="profile-card">
+                <div class="content">
+                    <h2>Faculty Member 2</h2>
+                    <p>Description: Curabitur fringilla dolor at sapien facilisis, ac aliquam ligula consectetur.</p>
+                </div>
             </div>
             <!-- Add more faculty members as needed -->
         </div>
     </section>
+</body>
+
+</html>
+    </div>
 </body>
 
 </html>
