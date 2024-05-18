@@ -27,10 +27,8 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }} # Used for Github integrations (i.e. PR comments)
           action: "upload"
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
-          # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/src" # App source code path
-          api_location: "" # Api source code path - optional
-          output_location: "/src" # Built app content directory - optional
+          app_location: "/" # Corrected the app source code path
+          output_location: "build" # Adjusted the built app content directory
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
