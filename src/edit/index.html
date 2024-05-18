@@ -41,24 +41,40 @@
                 name = $('#new-name').val();
                 designation = $('#new-designation').val();
                 description = $('#new-description').val();
-                
-                // Send data to Azure SQL Database
-                $.ajax({
-                    url: 'save_profile.php', // Replace with your server-side script URL
-                    method: 'POST',
-                    data: {
-                        name: name,
-                        designation: designation,
-                        description: description
-                    },
-                    success: function(response) {
-                        alert('New profile created successfully!');
-                        $('#new-profile-fields').hide(); // Hide the new profile fields after creating the profile
-                    },
-                    error: function(xhr, status, error) {
-                        alert('Error creating profile: ' + error);
-                    }
-                });
+
+                // Get profile picture file
+                var fileInput = document.getElementById('new-image');
+                var file = fileInput.files[0];
+                var reader = new FileReader();
+
+                reader.onload = function(e) {
+                    var profilePicture = e.target.result;
+
+                    // Send data to Azure SQL Database
+                    $.ajax({
+                        url: 'save_profile.php', // Replace with your server-side script URL
+                        method: 'POST',
+                        data: {
+                            name: name,
+                            designation: designation,
+                            description: description,
+                            profile_picture: profilePicture
+                        },
+                        success: function(response) {
+                            alert('New profile created successfully!');
+                            $('#new-profile-fields').hide(); // Hide the new profile fields after creating the profile
+                        },
+                        error: function(xhr, status, error) {
+                            alert('Error creating profile: ' + error);
+                        }
+                    });
+                };
+
+                if (file) {
+                    reader.readAsDataURL(file); // Read file as data URL
+                } else {
+                    alert('Please select a profile picture.');
+                }
             } else {
                 // Update existing profile (not implemented in this example)
                 alert('Updating existing profile is not implemented in this example.');
