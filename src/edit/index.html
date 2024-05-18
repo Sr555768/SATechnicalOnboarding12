@@ -41,31 +41,27 @@
                 name = $('#new-name').val();
                 designation = $('#new-designation').val();
                 description = $('#new-description').val();
-                // You can handle image uploading here if needed
-                // Add new profile to the main page
-                $('#page1 .grid-container').append(`
-                    <div class="profile-card" id="new-profile">
-                        <img src="placeholder.jpg" alt="New Profile">
-                        <div class="content">
-                            <h2>${name}</h2>
-                            <p>Designation: ${designation}</p>
-                            <p>${description}</p>
-                        </div>
-                    </div>
-                `);
-                alert('New profile created successfully!');
-                $('#new-profile-fields').hide(); // Hide the new profile fields after creating the profile
+                
+                // Send data to Azure SQL Database
+                $.ajax({
+                    url: 'save_profile.php', // Replace with your server-side script URL
+                    method: 'POST',
+                    data: {
+                        name: name,
+                        designation: designation,
+                        description: description
+                    },
+                    success: function(response) {
+                        alert('New profile created successfully!');
+                        $('#new-profile-fields').hide(); // Hide the new profile fields after creating the profile
+                    },
+                    error: function(xhr, status, error) {
+                        alert('Error creating profile: ' + error);
+                    }
+                });
             } else {
-                // Update existing profile on the main page
-                name = $('#name').val();
-                designation = $('#designation').val();
-                description = $('#description').val();
-                // You can handle image uploading here if needed
-                var profileCard = $('#' + profileId);
-                profileCard.find('h2').text(name);
-                profileCard.find('p').eq(0).text('Designation: ' + designation);
-                profileCard.find('p').eq(1).text(description);
-                alert('Profile updated successfully!');
+                // Update existing profile (not implemented in this example)
+                alert('Updating existing profile is not implemented in this example.');
             }
             // Clear form fields
             $('#edit-form')[0].reset();
