@@ -6,7 +6,7 @@ $description = $_POST['description'];
 
 // Connect to your Azure SQL Database
 $server = " sr-server-0302.database.windows.net";
-$database = "sr-server-0302";
+$database = "sr";
 $username = "SREHMAN0302";
 $password = "P@ssw0rd123!";
 
