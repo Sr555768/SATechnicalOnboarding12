@@ -9,7 +9,7 @@
 }
 
 .hero-image {
-    background-image: url(../img/bg-1.a3105f4d.png)!important;
+    background-image: url(./founder1.png)!important;
     background-color: #df3b28;
     background-position: 50%;
     height: 75%;
@@ -24,7 +24,7 @@
 }
 
 .hero-image-2 {
-    background-image: url(../img/bg-2.2ecd4ac0.png)!important;
+    background-image: url(./founder1.png)!important;
     background-position: 50%;
     background-color: #2c2b6f;
     height: 75%;
@@ -39,7 +39,7 @@
 }
 
 .imac-video {
-    background-image: url(../img/imac.294f6365.png);
+    background-image: url(./founder1.png);
     width: 100%;
     height: 800px;
     background-size: contain;
@@ -67,7 +67,7 @@
 
 .imac:after {
     content: "";
-    background: url(../img/imac-bottom-border.5585273c.png) no-repeat 50%;
+    background: url(./founder1.png) no-repeat 50%;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -197,7 +197,7 @@ footer.home {
 }
 
 .bg-home {
-    background-image: url(../img/bg_home.decbd1af.png)!important;
+    background-image: url(./founder1.png)!important;
     background-size: cover;
     background-repeat: no-repeat
 }
@@ -257,7 +257,7 @@ footer.home {
 }
 
 .phy-bg {
-    background-image: url(../img/Physics.e129ee87.jpg);
+    background-image: url(./founder1.png);
     background-size: cover
 }
 
@@ -282,7 +282,7 @@ footer.home {
 }
 
 .chem-bg {
-    background-image: url(../img/Chemistry.596c271e.jpg)
+    background-image: url(./founder1.png)
 }
 
 .bio-bg,.chem-bg {
@@ -290,11 +290,11 @@ footer.home {
 }
 
 .bio-bg {
-    background-image: url(../img/Biology.d84eb862.jpg)
+    background-image: url(./founder1.png)
 }
 
 .math-bg {
-    background-image: url(../img/Math.c38eb89f.jpg);
+    background-image: url(./founder1.png);
     background-size: cover
 }
 
