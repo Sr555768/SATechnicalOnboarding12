@@ -4262,7 +4262,7 @@
             function e() {
                 this.config = {
                     auth: {
-                        clientId: "6df12fc1-bf66-4a86-92fe-52d41155bfb9"
+                        clientId: "5db603e4-5a09-41bf-a36d-618c9e6bf0d0"
                     }
                 },
                 this.accessTokenRequest = {
