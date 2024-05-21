@@ -7215,7 +7215,7 @@
             }, [e.isHadaf ? e._e() : i("img", {
                 attrs: {
                     src: s("a4ef"),
-                    alt: "PGC"
+                    alt: "MLSAPRO"
                 }
             }), e.isHadaf ? i("img", {
                 attrs: {
@@ -7247,7 +7247,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("info@pgc.edu")]), e._m(2)]), e.isHadaf ? i("div", {
+            }, [e._v("info@mlsapro.com")]), e._m(2)]), e.isHadaf ? i("div", {
                 staticClass: "footer-links",
                 staticStyle: {
                     color: "white !important"
@@ -7256,12 +7256,12 @@
                 staticStyle: {
                     "font-weight": "300"
                 }
-            }, [e._v("0800-42323")]), i("h3", {
+            }, [e._v("92-356789")]), i("h3", {
                 staticStyle: {
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("support@hadafcollege.com")])]) : e._e()]), i("div", {
+            }, [e._v("support@mlsapro.com")])]) : e._e()]), i("div", {
                 staticClass: "col-12 text-left",
                 staticStyle: {
                     "margin-bottom": "40px"
@@ -7295,7 +7295,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("123-C, E1 Hali Road,"), s("br"), e._v(" Gulberg III, Lahore")])
+            }, [e._v("123-B, F2 IqBAl Road,"), s("br"), e._v(" Satellite Town, Islalamabad")])
         }
         , function() {
             var e = this
@@ -7309,10 +7309,10 @@
             }, [e._v("For Complaints: "), s("a", {
                 staticClass: "complaintLink",
                 attrs: {
-                    href: "https://complaint.pgc.edu/",
+                    href: "https://mlsapro.com/",
                     target: "_blank"
                 }
-            }, [e._v("https://complaint.pgc.edu/")])])
+            }, [e._v("https://mlsapro.com/")])])
         }
         , function() {
             var e = this
@@ -7346,7 +7346,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.facebook.com/PGCWorld/"
+                    href: "https://www.facebook.com/mlsa.pro.com/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-facebook-f"
@@ -7359,7 +7359,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://twitter.com/pgcworld"
+                    href: "https://twitter.com/shahzal.rehman"
                 }
             }, [s("i", {
                 staticClass: "fab fa-twitter"
@@ -7372,7 +7372,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/pgcworld/"
+                    href: "https://www.instagram.com/shahzal.rehman.official/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-instagram"
@@ -7385,7 +7385,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.youtube.com/user/pgcworld"
+                    href: "https://www.youtube.com/@Shahzal.Rehman16"
                 }
             }, [s("i", {
                 staticClass: "fab fa-youtube"
