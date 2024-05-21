@@ -1266,7 +1266,7 @@
                     "font-size": "4.5rem",
                     "margin-bottom": "10px"
                 }
-            }, [i("b", [e._v("EMS & E-LEARNING "), i("BR"), i("span", {
+            }, [i("b", [e._v("MLSAPRO "), i("BR"), i("span", {
                 staticClass: "colored"
             }, [e._v("PORTAL.")])], 1)]), i("login")], 1)])])])]), i("section", {
                 staticClass: "bg-dark-theme text-center pb-0",
@@ -1292,7 +1292,7 @@
                     "text-align-last": "center",
                     "text-transform": "uppercase"
                 }
-            }, [e.isHadaf ? e._e() : i("span", [e._v("Punjab Group of Colleges")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" provides access to world class education to all the learning enthusiasts. The foremost aim of introducing "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by PGC")]), e.isHadaf ? i("span", [e._v("Our Online Portal")]) : e._e(), e._v(" is to open doors of learning at your fingertips and this initiative unveils the opportunity to experience the virtual world and learn in a different and easier manner. The design of this portal offers â€œjust in timeâ€ information and relevant course based material for fast learning.\nThis all in one student guidance portal brings to you "), i("b", [e._v("MCQs")]), e._v(", "), i("b", [e._v("Interactive Videos")]), e._v(", "), i("b", [e._v("Past Papers")]), e._v(" and "), i("b", [e._v("Multiple Campus Management Features")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by PGC")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
+            }, [e.isHadaf ? e._e() : i("span", [e._v("MLSAPRO")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" Provides Hand On Experiece along With Technical Ancd Conceptual Training of Microsoft Products "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Online Portal")]) : e._e(), e._v(" We Provide Students with information and relevant course based material for fast learning.\nThis all in one student guidance portal brings to you "), i("b", [e._v("MCQs")]), e._v(", "), i("b", [e._v("Interactive Videos")]), e._v(", "), i("b", [e._v("Questions-and-answers")]), e._v(" and "), i("b", [e._v("Online Challenges")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
                 staticClass: "bg-light featured featured-3 text-center",
                 attrs: {
                     id: "demo"
@@ -1327,7 +1327,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Physics")])]), i("swiper-slide", [i("div", {
+            }, [e._v("Challenges")])]), i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal5",
@@ -1346,7 +1346,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Chemistry")])]), i("swiper-slide", [i("swiper-slide", [i("div", {
+            }, [e._v("AlterFomra")])]), i("swiper-slide", [i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal4",
@@ -1365,7 +1365,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Biology")])])], 1), i("swiper-slide", [i("swiper-slide", [i("div", {
+            }, [e._v("AzureFundamentals")])])], 1), i("swiper-slide", [i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal6",
@@ -1384,7 +1384,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Mathematics")])])], 1), i("div", {
+            }, [e._v("Core7")])])], 1), i("div", {
                 staticClass: "swiper-pagination",
                 attrs: {
                     slot: "pagination"
@@ -1415,7 +1415,7 @@
                 attrs: {
                     width: "2000",
                     height: "1000",
-                    src: "https://www.youtube.com/embed/DC0aGL_m_Hw",
+                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=0EVMgVFXph446hkb",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1435,7 +1435,7 @@
                 attrs: {
                     width: "853",
                     height: "480",
-                    src: "https://www.youtube.com/embed/bnB-Cw7URwg",
+                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=0EVMgVFXph446hkb",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1475,7 +1475,7 @@
                 attrs: {
                     width: "853",
                     height: "480",
-                    src: "https://www.youtube.com/embed/N7WTyn8qeCk",
+                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=0EVMgVFXph446hkb",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1543,7 +1543,7 @@
                     "font-size": "4rem",
                     "line-height": "1"
                 }
-            }, [e._v("Download the "), i("br"), e._v("App")])])])])])])
+            }, [e._v("Download the Conceptes at "), i("br"), e._v("MLSAPRO.com")])])])])])])
         }
         , function() {
             var e = this
@@ -1585,7 +1585,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("450+ Past Papers")])])])]), i("div", {
+            }, [e._v("20+Vedio Lectures")])])])]), i("div", {
                 staticClass: "col-sm-12 col-md-4"
             }, [i("div", {
                 staticClass: "featured-panel"
@@ -1600,7 +1600,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("15000+ MCQs")])])])]), i("div", {
+            }, [e._v("10+Projects")])])])]), i("div", {
                 staticClass: "col-sm-12 col-md-4"
             }, [i("div", {
                 staticClass: "featured-panel"
@@ -1615,7 +1615,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("1500+ Video Lectures")])])])])])])])
+            }, [e._v("100+Concept Based Challenges")])])])])])])])
         }
         , function() {
             var e = this
@@ -1704,7 +1704,7 @@
                 attrs: {
                     width: "2000",
                     height: "1000",
-                    src: "https://www.youtube.com/embed/CkbTDXsQKOc",
+                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=ITr_GVgpbiuZLvYw",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -4394,11 +4394,11 @@
                 this.apiLoading = !0,
                 this.service.resetPassword(this.form.username, this.form.cnic).then((function(t) {
                     e.apiLoading = !1,
-                    t.password ? e.error = "Your newly generated password is " + t.password : e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on 080078608 to get your issue resolved promptly."
+                    t.password ? e.error = "Your newly generated password is " + t.password : e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on +92-300000 to get your issue resolved promptly."
                 }
                 )).catch((function(t) {
                     e.apiLoading = !1,
-                    e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on 080078608 to get your issue resolved promptly."
+                    e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on +92-300000 to get your issue resolved promptly."
                 }
                 ))
             }
@@ -4444,7 +4444,7 @@
                         case 2:
                             return t = s.sent(),
                             "isprof" == t && this.$bvModal.show("prof-option"),
-                            "failed" == t ? this.errorMessage = "Something went wrong. Kindly contact our helpline on 080078608 or lodge a complaint on complaint.pgc.edu.pk" : "not auth" == t ? this.errorMessage = "Please complete the Microsoft Authentication process to login" : "not registered" == t ? (this.errorMessage = "Your account is not registered in PGC E-learn. Kindly contact our helpline at 0800-78608",
+                            "failed" == t ? this.errorMessage = "Something went wrong. Kindly contact our helpline on +92-300000 or lodge a complaint on complaint.pgc.edu.pk" : "not auth" == t ? this.errorMessage = "Please complete the Microsoft Authentication process to login" : "not registered" == t ? (this.errorMessage = "Your account is not registered in PGC E-learn. Kindly contact our helpline at 0800-78608",
                             this.allowLogout = !0) : window.location.reload(),
                             [2]
                         }
@@ -4469,7 +4469,7 @@
                             return s = i.sent(),
                             "isprof" == s && this.$bvModal.show("prof-option"),
                             "failed" == s && null !== t ? (e && e.classList.remove("running"),
-                            this.errorMessage = "Incorrect password. Kindly contact our helpline on 080078608",
+                            this.errorMessage = "Incorrect password. Kindly contact our helpline on +92-300000",
                             t.classList.remove("error-visible"),
                             setTimeout((function() {
                                 t.classList.add("error-visible")
@@ -7212,15 +7212,15 @@
                 attrs: {
                     href: "/"
                 }
-            }, [e.isHadaf ? e._e() : i("img", {
+            }, [e.isHadaf ? e._e() : i("founder1", {
                 attrs: {
                     src: s("a4ef"),
-                    alt: "PGC"
+                    alt: "MLSAPRO"
                 }
             }), e.isHadaf ? i("img", {
                 attrs: {
                     src: s("7316"),
-                    alt: "HADAF"
+                    alt: "MLSAPRO"
                 }
             }) : e._e()]), i("div", {
                 staticClass: "in-footer text-left",
@@ -7247,7 +7247,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("info@pgc.edu")]), e._m(2)]), e.isHadaf ? i("div", {
+            }, [e._v("info@mlsapro.edu")]), e._m(2)]), e.isHadaf ? i("div", {
                 staticClass: "footer-links",
                 staticStyle: {
                     color: "white !important"
@@ -7261,7 +7261,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("support@hadafcollege.com")])]) : e._e()]), i("div", {
+            }, [e._v("support@mlsapro.com")])]) : e._e()]), i("div", {
                 staticClass: "col-12 text-left",
                 staticStyle: {
                     "margin-bottom": "40px"
@@ -7295,7 +7295,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("123-C, E1 Hali Road,"), s("br"), e._v(" Gulberg III, Lahore")])
+            }, [e._v("123,Islamabad,"), s("br"), e._v(" Pakistan")])
         }
         , function() {
             var e = this
@@ -7309,10 +7309,10 @@
             }, [e._v("For Complaints: "), s("a", {
                 staticClass: "complaintLink",
                 attrs: {
-                    href: "https://complaint.pgc.edu/",
+                    href: "https://mlsapro.com/",
                     target: "_blank"
                 }
-            }, [e._v("https://complaint.pgc.edu/")])])
+            }, [e._v("https://mlsapro.com/")])])
         }
         , function() {
             var e = this
@@ -7323,7 +7323,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("Hayatabad Ring Road,"), s("br"), e._v(" Achini Chowk, Peshawar")])
+            }, [e._v("Islalamabad,"), s("br"), e._v(" Pakistan")])
         }
         , function() {
             var e = this
@@ -7346,7 +7346,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.facebook.com/PGCWorld/"
+                    href: "https://www.facebook.com/mlsa.pro.com/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-facebook-f"
@@ -7359,7 +7359,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://twitter.com/pgcworld"
+                    href: "https://twitter.com/Shahzal.Rehman"
                 }
             }, [s("i", {
                 staticClass: "fab fa-twitter"
@@ -7372,7 +7372,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/pgcworld/"
+                    href: "https://www.instagram.com/shahzal.rehman.official/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-instagram"
@@ -7385,7 +7385,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.youtube.com/user/pgcworld"
+                    href: "https://www.youtube.com/@Shahzal.Rehman16"
                 }
             }, [s("i", {
                 staticClass: "fab fa-youtube"
@@ -7398,7 +7398,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.facebook.com/HadafColleges/"
+                    href: "https://www.facebook.com/mlsa.pro.com/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-facebook-f"
@@ -7411,7 +7411,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://twitter.com/HadafColleges"
+                    href: "https://twitter.com/Shahzal.Rehman"
                 }
             }, [s("i", {
                 staticClass: "fab fa-twitter"
@@ -7424,7 +7424,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/hadafcolleges/"
+                    href: "https://www.instagram.com/shahzal.rehman.official/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-instagram"
@@ -7437,7 +7437,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.youtube.com/channel/UCstuvZpF9KyA0pqaV1RUW5Q"
+                    href: "https://www.youtube.com/@Shahzal.Rehman16
                 }
             }, [s("i", {
                 staticClass: "fab fa-youtube"
