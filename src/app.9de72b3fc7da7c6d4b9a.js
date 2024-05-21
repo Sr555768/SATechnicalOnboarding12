@@ -1266,7 +1266,7 @@
                     "font-size": "4.5rem",
                     "margin-bottom": "10px"
                 }
-            }, [i("b", [e._v("MLSAPRO.Com "), i("BR"), i("span", {
+            }, [i("b", [e._v("EMS & E-LEARNING "), i("BR"), i("span", {
                 staticClass: "colored"
             }, [e._v("PORTAL.")])], 1)]), i("login")], 1)])])])]), i("section", {
                 staticClass: "bg-dark-theme text-center pb-0",
@@ -1292,14 +1292,14 @@
                     "text-align-last": "center",
                     "text-transform": "uppercase"
                 }
-            }, [e.isHadaf ? e._e() : i("span", [e._v("MLSAPRO.Com")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" Provides Hand On Experiece along With Technical Ancd Conceptual Training of Microsoft Products"), e.isHadaf ? e._e() : i("span", [e._v("Snake Preview By MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our MS Excel Advance")]) : e._e(), e._v(" is to open doors of learning at your fingertips and this initiative unveils the opportunity to experience the virtual world and learn in a different and easier manner.\nThis all in one student guidance portal brings to you "), i("b", [e._v("MCQs")]), e._v(", "), i("b", [e._v("Interactive Videos")]), e._v(", "), i("b", [e._v("Games")]), e._v(" and "), i("b", [e._v("Online Challenges")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
+            }, [e.isHadaf ? e._e() : i("span", [e._v("Punjab Group of Colleges")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" provides access to world class education to all the learning enthusiasts. The foremost aim of introducing "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by PGC")]), e.isHadaf ? i("span", [e._v("Our Online Portal")]) : e._e(), e._v(" is to open doors of learning at your fingertips and this initiative unveils the opportunity to experience the virtual world and learn in a different and easier manner. The design of this portal offers â€œjust in timeâ€ information and relevant course based material for fast learning.\nThis all in one student guidance portal brings to you "), i("b", [e._v("MCQs")]), e._v(", "), i("b", [e._v("Interactive Videos")]), e._v(", "), i("b", [e._v("Past Papers")]), e._v(" and "), i("b", [e._v("Multiple Campus Management Features")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by PGC")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
                 staticClass: "bg-light featured featured-3 text-center",
-                               staticClass: "container"
-            }, [e._m(2), i("div attrs: {
+                attrs: {
                     id: "demo"
                 }
             }, [i("div", {
-", {
+                staticClass: "container"
+            }, [e._m(2), i("div", {
                 staticClass: "row"
             }, [i("swiper", {
                 staticStyle: {
@@ -1327,7 +1327,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Autonomus System")])]), i("swiper-slide", [i("div", {
+            }, [e._v("Physics")])]), i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal5",
@@ -1346,7 +1346,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Turbo90")])]), i("swiper-slide", [i("swiper-slide", [i("div", {
+            }, [e._v("Chemistry")])]), i("swiper-slide", [i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal4",
@@ -1365,7 +1365,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Azure Fundamentals")])])], 1), i("swiper-slide", [i("swiper-slide", [i("div", {
+            }, [e._v("Biology")])])], 1), i("swiper-slide", [i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal6",
@@ -1384,7 +1384,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("AlterForma")])])], 1), i("div", {
+            }, [e._v("Mathematics")])])], 1), i("div", {
                 staticClass: "swiper-pagination",
                 attrs: {
                     slot: "pagination"
@@ -1415,7 +1415,7 @@
                 attrs: {
                     width: "2000",
                     height: "1000",
-                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=3aWS8Tx5aj6dZ9Tm",
+                    src: "https://www.youtube.com/embed/DC0aGL_m_Hw",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1435,7 +1435,7 @@
                 attrs: {
                     width: "853",
                     height: "480",
-                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=3aWS8Tx5aj6dZ9Tm",
+                    src: "https://www.youtube.com/embed/bnB-Cw7URwg",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1455,7 +1455,7 @@
                 attrs: {
                     width: "853",
                     height: "480",
-                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=3aWS8Tx5aj6dZ9Tm",
+                    src: "https://www.youtube.com/embed/D_gNyG3e91M",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1475,7 +1475,7 @@
                 attrs: {
                     width: "853",
                     height: "480",
-                    src: "https://www.youtube.com/embed/7a2Wz1QGv3M?si=3aWS8Tx5aj6dZ9Tm",
+                    src: "https://www.youtube.com/embed/N7WTyn8qeCk",
                     frameborder: "0",
                     allow: "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture",
                     allowfullscreen: ""
@@ -1543,7 +1543,7 @@
                     "font-size": "4rem",
                     "line-height": "1"
                 }
-            }, [e._v("Download the "), i("br"), e._v("Concepts at mlsapro.com/Home")])])])])])])
+            }, [e._v("Download the "), i("br"), e._v("App")])])])])])])
         }
         , function() {
             var e = this
@@ -1585,7 +1585,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("10+Projects")])])])]), i("div", {
+            }, [e._v("450+ Past Papers")])])])]), i("div", {
                 staticClass: "col-sm-12 col-md-4"
             }, [i("div", {
                 staticClass: "featured-panel"
@@ -1600,7 +1600,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("100+Ceoncept Based Challenges")])])])]), i("div", {
+            }, [e._v("15000+ MCQs")])])])]), i("div", {
                 staticClass: "col-sm-12 col-md-4"
             }, [i("div", {
                 staticClass: "featured-panel"
@@ -1615,7 +1615,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("20+Vedio Lectures")])])])])])])])
+            }, [e._v("1500+ Video Lectures")])])])])])])])
         }
         , function() {
             var e = this
@@ -4262,7 +4262,7 @@
             function e() {
                 this.config = {
                     auth: {
-                        clientId: "5db603e4-5a09-41bf-a36d-618c9e6bf0d0"
+                        clientId: "6df12fc1-bf66-4a86-92fe-52d41155bfb9"
                     }
                 },
                 this.accessTokenRequest = {
@@ -4394,11 +4394,11 @@
                 this.apiLoading = !0,
                 this.service.resetPassword(this.form.username, this.form.cnic).then((function(t) {
                     e.apiLoading = !1,
-                    t.password ? e.error = "Your newly generated password is " + t.password : e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on +92-300000 to get your issue resolved promptly."
+                    t.password ? e.error = "Your newly generated password is " + t.password : e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on 080078608 to get your issue resolved promptly."
                 }
                 )).catch((function(t) {
                     e.apiLoading = !1,
-                    e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on +92-3000000 to get your issue resolved promptly."
+                    e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on 080078608 to get your issue resolved promptly."
                 }
                 ))
             }
@@ -4444,7 +4444,7 @@
                         case 2:
                             return t = s.sent(),
                             "isprof" == t && this.$bvModal.show("prof-option"),
-                            "failed" == t ? this.errorMessage = "Something went wrong. Kindly contact our helpline on +92-300000 or lodge a complaint on complaint.pgc.edu.pk" : "not auth" == t ? this.errorMessage = "Please complete the Microsoft Authentication process to login" : "not registered" == t ? (this.errorMessage = "Your account is not registered in PGC E-learn. Kindly contact our helpline at 0800-78608",
+                            "failed" == t ? this.errorMessage = "Something went wrong. Kindly contact our helpline on 080078608 or lodge a complaint on complaint.pgc.edu.pk" : "not auth" == t ? this.errorMessage = "Please complete the Microsoft Authentication process to login" : "not registered" == t ? (this.errorMessage = "Your account is not registered in PGC E-learn. Kindly contact our helpline at 0800-78608",
                             this.allowLogout = !0) : window.location.reload(),
                             [2]
                         }
@@ -4469,7 +4469,7 @@
                             return s = i.sent(),
                             "isprof" == s && this.$bvModal.show("prof-option"),
                             "failed" == s && null !== t ? (e && e.classList.remove("running"),
-                            this.errorMessage = "Incorrect password. Kindly contact our helpline on +92-300000",
+                            this.errorMessage = "Incorrect password. Kindly contact our helpline on 080078608",
                             t.classList.remove("error-visible"),
                             setTimeout((function() {
                                 t.classList.add("error-visible")
@@ -4514,7 +4514,7 @@
                 t.blogs = [{
                     heading: "Overcoming Fears of Youth",
                     excerpt: "I could remember childhood days specifically school and college days when our biggest fears...",
-                    fullblog: "I could remember childhood days specifically school and college days when our biggest fears were that whether we will be able to perform in exams or not? What will be the result? What if we will fail? This anxiety could lead a child to some serious depression. Only well-groomed confidence could prevent this situation. The confidence which appears only if our motivation to learn is strong enough and the teacher is supporting well in our learning process, only then one can beat depression. In our college days, we used to get extra tuitions in the evening other than our regular college classes and the irony was that sometimes we were not in the mood to study, sometimes teacher was not in the mood to teach and sometimes it was a holiday Voila!, well rest in peace our motivation to learn. But not anymore, thanks to E-Learning by PGC through which you can explore a huge database of e-learning tools in the form of MCQs, Past Papers from last 6 years and hundreds of recorded lectures on PGC E-Learning Application which are available 24/7.  Everything is accessible on a single tap on the smartphone screen. All video lectures are of good quality, prepared on purpose and without any distraction. After the completion of a lecture, a student can also attempt practice questions. Some people say that being independent gives you confidence, which is the opposite of depending on someone’s mood as I mentioned earlier. E-Learning by PGC could make students independent while studying, give them the confidence to perform better in exams and overcome their fears in all situations. We should always appreciate new developments in technology, though it has pros and cons at the same time but if the purpose is to educate a child without any distraction then its positive for everyone. I believe if we try to divert our children’s attention towards the E-Learning portals like PGC instead of keeping them entertained through funny videos on YouTube, we can change the way of learning and can make students independent in all situations.",
+                    fullblog: "I could remember childhood days specifically school and college days when our biggest fears were that whether we will be able to perform in exams or not? What will be the result? What if we will fail? This anxiety could lead a child to some serious depression. Only well-groomed confidence could prevent this situation. The confidence which appears only if our motivation to learn is strong enough and the teacher is supporting well in our learning process, only then one can beat depression. In our college days, we used to get extra tuitions in the evening other than our regular college classes and the irony was that sometimes we were not in the mood to study, sometimes teacher was not in the mood to teach and sometimes it was a holiday Voila!, well rest in peace our motivation to learn. But not anymore, thanks to E-Learning by PGC through which you can explore a huge database of e-learning tools in the form of MCQs, Past Papers from last 6 years and hundreds of recorded lectures on PGC E-Learning Application which are available 24/7.  Everything is accessible on a single tap on the smartphone screen. All video lectures are of good quality, prepared on purpose and without any distraction. After the completion of a lecture, a student can also attempt practice questions. Some people say that being independent gives you confidence, which is the opposite of depending on someoneâ€™s mood as I mentioned earlier. E-Learning by PGC could make students independent while studying, give them the confidence to perform better in exams and overcome their fears in all situations. We should always appreciate new developments in technology, though it has pros and cons at the same time but if the purpose is to educate a child without any distraction then its positive for everyone. I believe if we try to divert our childrenâ€™s attention towards the E-Learning portals like PGC instead of keeping them entertained through funny videos on YouTube, we can change the way of learning and can make students independent in all situations.",
                     author: "Safia Junaid"
                 }, {
                     heading: "Breaking Barriers in Education Sector of Pakistan",
@@ -4524,7 +4524,7 @@
                 }, {
                     heading: "Providing Standardized Education",
                     excerpt: "Life is a lesson and we learn throughout our life from Montessori to Ph.D. with a common source in the form of dozens of teachers...",
-                    fullblog: "Life is a lesson and we learn throughout our life from Montessori to Ph.D. with a common source in the form of dozens of teachers, teaching and motivating us continuously. Some were good and some were bad. Bad doesn’t mean that they were behaving badly or inappropriately but it means that they were good or bad at teaching us, making it easy or difficult for us to learn the concepts. I could remember a teacher during my school who had great knowledge of mathematics but wasn’t able to make us understand a single equation, contrary to that there was another teacher whose qualification was not very high but he was great at teaching us and making us understand a concept by the earliest. I wish I could get the opportunity to learn from all good teachers so that I could get maximum results and knowledge from my studies. Same is the target Punjab Group of Colleges is trying to achieve by using their best teachers and recording well-planned lectures to provide standardized education at the college level through PGC E-Learning Application. The app contains a huge database of e-learning tools in the form of MCQs, Past Papers from last 6 years and hundreds of recorded lectures on PGC E-Learning Application which are available 24/7. Everything is accessible on a single tap on the smartphone screen. All video lectures are of good quality, prepared on purpose and without any distraction. After the completion of a lecture, a student can also attempt practice questions. In the 18th century, standardization was adopted the first time in production by the large scale industrialists to get maximum output while producing at economies of scale and then later on it was part of every consumer products and services industry. Same could be achieved by removing bad teachers from our system and giving our children the best so that they could perform better. Recorded lectures by PGC provide a significant level of accuracy in education and the beauty is that millions of students could benefit from a single video. With the help of technology different institutes of Pakistan could develop more reliable sources of education.",
+                    fullblog: "Life is a lesson and we learn throughout our life from Montessori to Ph.D. with a common source in the form of dozens of teachers, teaching and motivating us continuously. Some were good and some were bad. Bad doesnâ€™t mean that they were behaving badly or inappropriately but it means that they were good or bad at teaching us, making it easy or difficult for us to learn the concepts. I could remember a teacher during my school who had great knowledge of mathematics but wasnâ€™t able to make us understand a single equation, contrary to that there was another teacher whose qualification was not very high but he was great at teaching us and making us understand a concept by the earliest. I wish I could get the opportunity to learn from all good teachers so that I could get maximum results and knowledge from my studies. Same is the target Punjab Group of Colleges is trying to achieve by using their best teachers and recording well-planned lectures to provide standardized education at the college level through PGC E-Learning Application. The app contains a huge database of e-learning tools in the form of MCQs, Past Papers from last 6 years and hundreds of recorded lectures on PGC E-Learning Application which are available 24/7. Everything is accessible on a single tap on the smartphone screen. All video lectures are of good quality, prepared on purpose and without any distraction. After the completion of a lecture, a student can also attempt practice questions. In the 18th century, standardization was adopted the first time in production by the large scale industrialists to get maximum output while producing at economies of scale and then later on it was part of every consumer products and services industry. Same could be achieved by removing bad teachers from our system and giving our children the best so that they could perform better. Recorded lectures by PGC provide a significant level of accuracy in education and the beauty is that millions of students could benefit from a single video. With the help of technology different institutes of Pakistan could develop more reliable sources of education.",
                     author: "Uzair Ali"
                 }],
                 t.blog = t.blogs[0],
@@ -7212,15 +7212,15 @@
                 attrs: {
                     href: "/"
                 }
-            }, [e.isHadaf ? e._e() : i("./founder1.png", {
+            }, [e.isHadaf ? e._e() : i("img", {
                 attrs: {
                     src: s("a4ef"),
-                    alt: "MLSAPRO"
+                    alt: "PGC"
                 }
             }), e.isHadaf ? i("img", {
                 attrs: {
                     src: s("7316"),
-                    alt: "MLSAPRO"
+                    alt: "HADAF"
                 }
             }) : e._e()]), i("div", {
                 staticClass: "in-footer text-left",
@@ -7242,12 +7242,12 @@
                 staticStyle: {
                     "font-weight": "300"
                 }
-            }, [e._v("+92-300000")]), i("h3", {
+            }, [e._v("0800-78608")]), i("h3", {
                 staticStyle: {
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("info@mlsapro.com")]), e._m(2)]), e.isHadaf ? i("div", {
+            }, [e._v("info@pgc.edu")]), e._m(2)]), e.isHadaf ? i("div", {
                 staticClass: "footer-links",
                 staticStyle: {
                     color: "white !important"
@@ -7261,7 +7261,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("support@mlsapro.com")])]) : e._e()]), i("div", {
+            }, [e._v("support@hadafcollege.com")])]) : e._e()]), i("div", {
                 staticClass: "col-12 text-left",
                 staticStyle: {
                     "margin-bottom": "40px"
@@ -7295,7 +7295,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("MLSAPRO.Com,"), s("br"), e._v(" Lahore")])
+            }, [e._v("123-C, E1 Hali Road,"), s("br"), e._v(" Gulberg III, Lahore")])
         }
         , function() {
             var e = this
@@ -7309,10 +7309,10 @@
             }, [e._v("For Complaints: "), s("a", {
                 staticClass: "complaintLink",
                 attrs: {
-                    href: "https://mlsapro.com",
+                    href: "https://complaint.pgc.edu/",
                     target: "_blank"
                 }
-            }, [e._v("https://mlsapro.com")])])
+            }, [e._v("https://complaint.pgc.edu/")])])
         }
         , function() {
             var e = this
@@ -7323,7 +7323,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("Pakistan"), s("br"), e._v(" Islalambad")])
+            }, [e._v("Hayatabad Ring Road,"), s("br"), e._v(" Achini Chowk, Peshawar")])
         }
         , function() {
             var e = this
@@ -7346,7 +7346,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.facebook.com/mlsa.pro.com"
+                    href: "https://www.facebook.com/PGCWorld/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-facebook-f"
@@ -7359,7 +7359,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://twitter.com/Shahzal.Rehman"
+                    href: "https://twitter.com/pgcworld"
                 }
             }, [s("i", {
                 staticClass: "fab fa-twitter"
@@ -7372,7 +7372,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/shahzal.rehman.official"
+                    href: "https://www.instagram.com/pgcworld/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-instagram"
@@ -7385,7 +7385,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.youtube.com/@Shahzal.Rehman16"
+                    href: "https://www.youtube.com/user/pgcworld"
                 }
             }, [s("i", {
                 staticClass: "fab fa-youtube"
@@ -7398,7 +7398,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.facebook.com/shahzal.rehman.official/"
+                    href: "https://www.facebook.com/HadafColleges/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-facebook-f"
@@ -7411,7 +7411,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://twitter.com/ShahzalRehman"
+                    href: "https://twitter.com/HadafColleges"
                 }
             }, [s("i", {
                 staticClass: "fab fa-twitter"
@@ -7424,7 +7424,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.instagram.com/shahzal.rehman.official"
+                    href: "https://www.instagram.com/hadafcolleges/"
                 }
             }, [s("i", {
                 staticClass: "fab fa-instagram"
@@ -7437,7 +7437,7 @@
             return s("li", [s("a", {
                 attrs: {
                     target: "_blank",
-                    href: "https://www.youtube.com/@Shahzal.Rehman16"
+                    href: "https://www.youtube.com/channel/UCstuvZpF9KyA0pqaV1RUW5Q"
                 }
             }, [s("i", {
                 staticClass: "fab fa-youtube"
@@ -11692,7 +11692,7 @@
                     padding: "20px",
                     "padding-top": "40px"
                 }
-            }, [e._v("Punjab Group of Colleges “The Largest Educational Network in Pakistan” strongly believes "), s("span", {
+            }, [e._v("Punjab Group of Colleges â€œThe Largest Educational Network in Pakistanâ€ strongly believes "), s("span", {
                 attrs: {
                     id: "dots"
                 }
@@ -12718,7 +12718,7 @@
                     "font-weight": "400",
                     "text-transform": "none"
                 }
-            }, [e._v("\n      You can access your live virtual classroom by joining Microsoft Teams to discuss your previous day’s recorded lecture with your teachers between 9 a.m. to 12 p.m. noon or any other time specified by your respective campus. \n      ")]), i("div", [i("img", {
+            }, [e._v("\n      You can access your live virtual classroom by joining Microsoft Teams to discuss your previous dayâ€™s recorded lecture with your teachers between 9 a.m. to 12 p.m. noon or any other time specified by your respective campus. \n      ")]), i("div", [i("img", {
                 staticStyle: {
                     width: "40%",
                     "margin-top": "20px"
@@ -14338,7 +14338,7 @@
                     "margin-top": "40px",
                     color: "white"
                 }
-            }, [e._v("Strengthening the foundational concepts, you will be able to link the interesting experiments in this web series with your coursework. The fascinating episodes are bound to encourage your natural curiosity as to how and why things happen around you. Science is not always about Why but also Why NOT! So let’s embark on a journey of making science practical and enjoyable.")])])
+            }, [e._v("Strengthening the foundational concepts, you will be able to link the interesting experiments in this web series with your coursework. The fascinating episodes are bound to encourage your natural curiosity as to how and why things happen around you. Science is not always about Why but also Why NOT! So letâ€™s embark on a journey of making science practical and enjoyable.")])])
         }
         , function() {
             var e = this
@@ -14361,7 +14361,7 @@
                     "text-align-last": "center",
                     color: "white"
                 }
-            }, [e._v("Talking about well rounded electronic education, Punjab College Literary Club brings to you multiple activities aimed at guiding and nurturing our student body. Our students’ interests are our utmost priority hence, to empower you, Punjab Group of Colleges has introduced an array of competitions including Qiraat, Naat, Debates, Singing and Writing competitions.")]), s("p", {
+            }, [e._v("Talking about well rounded electronic education, Punjab College Literary Club brings to you multiple activities aimed at guiding and nurturing our student body. Our studentsâ€™ interests are our utmost priority hence, to empower you, Punjab Group of Colleges has introduced an array of competitions including Qiraat, Naat, Debates, Singing and Writing competitions.")]), s("p", {
                 staticClass: "fix-me",
                 staticStyle: {
                     "text-align": "justify",
@@ -14610,7 +14610,7 @@
                     "text-align-last": "center",
                     color: "white"
                 }
-            }, [e._v("\n              Dear students, It is our heartfelt pleasure to welcome you to Punjab College’s online Pre-First year classes. Your safety is our utmost priority therefore we have mobilized the best resources to provide you with the best online education you can get at your home. By selecting the Punjab Group of Colleges you have not only made the right choice but you are now part of the by far largest educational network of Pakistan. \n            ")]), i("p", {
+            }, [e._v("\n              Dear students, It is our heartfelt pleasure to welcome you to Punjab Collegeâ€™s online Pre-First year classes. Your safety is our utmost priority therefore we have mobilized the best resources to provide you with the best online education you can get at your home. By selecting the Punjab Group of Colleges you have not only made the right choice but you are now part of the by far largest educational network of Pakistan. \n            ")]), i("p", {
                 staticStyle: {
                     "text-align": "justify",
                     "margin-top": "40px",
@@ -14619,7 +14619,7 @@
                     "text-align-last": "center",
                     color: "white"
                 }
-            }, [e._v("\n            For over 35 years, spread across Pakistan we have been committed to provide you nothing short of excellence. Our exclusive e-learning programme, virtual learning tools and conventional education is a one step door to all your future ambitions. \n            Our orientation program is designed to provide you with all the information you need for your onlines classes. We wish you the best for your future and smooth learning experience with PGC.  \n            So, let’s get started!\n            ")])])]), i("div", {
+            }, [e._v("\n            For over 35 years, spread across Pakistan we have been committed to provide you nothing short of excellence. Our exclusive e-learning programme, virtual learning tools and conventional education is a one step door to all your future ambitions. \n            Our orientation program is designed to provide you with all the information you need for your onlines classes. We wish you the best for your future and smooth learning experience with PGC.  \n            So, letâ€™s get started!\n            ")])])]), i("div", {
                 staticClass: "video-container-mob",
                 staticStyle: {
                     "margin-top": "0px",
@@ -15109,7 +15109,7 @@
                     "text-align-last": "center",
                     color: "white"
                 }
-            }, [e._v("\n            Punjab Group of Colleges leaves no stone unturned for fostering and\n            promotion of art, culture, and literature. Round the year, PGC organizes state of the\n            art activities for intellectual, social, psychomotor, and cultural development of our\n            students. Co-curricular activities ignite the process of personality development and\n            starts a journey towards a decent lifestyle. However, marks, grades, and entrance\n            exams may have the utmost importance in a student’s life but what matters even\n            more is, how much prepared you are for the practical life ahead. PGC drives their\n            students with a more practical and dynamic approach which develop their\n            interpersonal skills and proves to be a ticket to bright future.\n          ")]), s("p", {
+            }, [e._v("\n            Punjab Group of Colleges leaves no stone unturned for fostering and\n            promotion of art, culture, and literature. Round the year, PGC organizes state of the\n            art activities for intellectual, social, psychomotor, and cultural development of our\n            students. Co-curricular activities ignite the process of personality development and\n            starts a journey towards a decent lifestyle. However, marks, grades, and entrance\n            exams may have the utmost importance in a studentâ€™s life but what matters even\n            more is, how much prepared you are for the practical life ahead. PGC drives their\n            students with a more practical and dynamic approach which develop their\n            interpersonal skills and proves to be a ticket to bright future.\n          ")]), s("p", {
                 staticClass: "fix-me",
                 staticStyle: {
                     "text-align": "justify",
@@ -15278,22 +15278,22 @@
                 t.apiLoading = !1,
                 t.data = [{
                     title: "Haya-Al-Fallah",
-                    text: "This is a competition of reciting the AZAAN in your voice. You can participate in this competition by sending us the video of the recitation of “AZAAN“. Following are the important points for your information and guidance.",
-                    judge: ["Tajheed : تجہید", "Awaaz : آواز", "Saans : سانس", "Tajweed : تجوید", "Layhun : لحن"],
+                    text: "This is a competition of reciting the AZAAN in your voice. You can participate in this competition by sending us the video of the recitation of â€œAZAANâ€œ. Following are the important points for your information and guidance.",
+                    judge: ["Tajheed : ØªØ¬ÛÛŒØ¯", "Awaaz : Ø¢ÙˆØ§Ø²", "Saans : Ø³Ø§Ù†Ø³", "Tajweed : ØªØ¬ÙˆÛŒØ¯", "Layhun : Ù„Ø­Ù†"],
                     rules: ["Dress-code is formal.", "The decision of the judge/s will be final.", "Get yourself registered uptill 13th of May."],
                     pic: "01",
                     video: "https://www.youtube.com/embed/XQ7zekTnBqQ"
                 }, {
                     title: "Hudal-lil-Muttaqeen (QIRAT Competition)",
-                    text: "This is the competition of reciting the holy verses of the Holy Quran in your voice. You can participate in this competition by sending us the video of your “QIRAT”. Followings are the important points for your information and guidance.",
-                    judge: ["Pronounciation : تلفظ", "Tajweed : تجوید", "Voice : آواز", "Saans : سانس", "Layhun : لحن"],
+                    text: "This is the competition of reciting the holy verses of the Holy Quran in your voice. You can participate in this competition by sending us the video of your â€œQIRATâ€. Followings are the important points for your information and guidance.",
+                    judge: ["Pronounciation : ØªÙ„ÙØ¸", "Tajweed : ØªØ¬ÙˆÛŒØ¯", "Voice : Ø¢ÙˆØ§Ø²", "Saans : Ø³Ø§Ù†Ø³", "Layhun : Ù„Ø­Ù†"],
                     rules: ["Time duration for QIRAT must be 3 - 5 minutes.", "Negative marking shall be done, if time limit will not be followed.", "You may select any verses from the HOLY QURAN.", "No translation is required in or after recitation.", "Dress-code is formal.", "The decision of the judge/s will be final.", "Get yourself registered uptill 13th of May."],
                     pic: "02",
                     video: "https://www.youtube.com/embed/KoanyEvZwcI"
                 }, {
                     title: "Khair-ul-wara (HUSN-E-NAAT Competition)",
                     text: "This is the competition of reciting the NAAT for our Holy Prophet (PBUH) in your voice. To participate in this competition, you need to send us the video of the recitation of NAAT. Followings are the important points for your information and guidance.",
-                    judge: ["Selection of kalam : کلام", "Pronunciation : تلفظ", "Presentation : پیشکش", "Rhythm : لحن"],
+                    judge: ["Selection of kalam : Ú©Ù„Ø§Ù…", "Pronunciation : ØªÙ„ÙØ¸", "Presentation : Ù¾ÛŒØ´Ú©Ø´", "Rhythm : Ù„Ø­Ù†"],
                     rules: ["The time for the recitation of NAAT must not exceed 3 minutes.", "Negative marking shall be done, if time limit will not be followed.", "You must select URDU Naatia kalam only.", "Other forms of kalam (such as Manqabat or Qaseeda etc) are not allowed.", "Dress-code is formal.", "The decision of the judge/s will be final.", "Get yourself registered uptill 13th of May."],
                     pic: "03",
                     video: "https://www.youtube.com/embed/XpfgpSZrlT0"
@@ -15306,20 +15306,20 @@
                     topic: "We are a crowd not a Nation",
                     video: "https://www.youtube.com/embed/ux9OVFcFTZ4"
                 }, {
-                    title: "اردو تقریر مقابلہ",
-                    rules: ["مقابلہ میں اول، دوم اور سوئم آنیوالے طلباو طالبات کو انعامات سے نوازا جائے گا۔", "کاغذ یا پرچے سے پڑھنے کی اجازت نہ ہوگی", "منصفین (ججوں) کا فیصلہ حتمی اور نا قابل اپیل ہوگا۔", "مقابلہ میں اول، دوم اور سوئم آنیوالے طلباو طالبات کو", "رجسٹریشن کی آخری تاریخ 16 جون 2020"],
+                    title: "Ø§Ø±Ø¯Ùˆ ØªÙ‚Ø±ÛŒØ± Ù…Ù‚Ø§Ø¨Ù„Û",
+                    rules: ["Ù…Ù‚Ø§Ø¨Ù„Û Ù…ÛŒÚº Ø§ÙˆÙ„ØŒ Ø¯ÙˆÙ… Ø§ÙˆØ± Ø³ÙˆØ¦Ù… Ø§Ù“Ù†ÛŒÙˆØ§Ù„Û’ Ø·Ù„Ø¨Ø§Ùˆ Ø·Ø§Ù„Ø¨Ø§Øª Ú©Ùˆ Ø§Ù†Ø¹Ø§Ù…Ø§Øª Ø³Û’ Ù†ÙˆØ§Ø²Ø§ Ø¬Ø§Ø¦Û’ Ú¯Ø§Û”", "Ú©Ø§ØºØ° ÛŒØ§ Ù¾Ø±Ú†Û’ Ø³Û’ Ù¾Ú‘Ú¾Ù†Û’ Ú©ÛŒ Ø§Ø¬Ø§Ø²Øª Ù†Û ÛÙˆÚ¯ÛŒ", "Ù…Ù†ØµÙÛŒÙ† (Ø¬Ø¬ÙˆÚº) Ú©Ø§ ÙÛŒØµÙ„Û Ø­ØªÙ…ÛŒ Ø§ÙˆØ± Ù†Ø§ Ù‚Ø§Ø¨Ù„ Ø§Ù¾ÛŒÙ„ ÛÙˆÚ¯Ø§Û”", "Ù…Ù‚Ø§Ø¨Ù„Û Ù…ÛŒÚº Ø§ÙˆÙ„ØŒ Ø¯ÙˆÙ… Ø§ÙˆØ± Ø³ÙˆØ¦Ù… Ø§Ù“Ù†ÛŒÙˆØ§Ù„Û’ Ø·Ù„Ø¨Ø§Ùˆ Ø·Ø§Ù„Ø¨Ø§Øª Ú©Ùˆ", "Ø±Ø¬Ø³Ù¹Ø±ÛŒØ´Ù† Ú©ÛŒ Ø§Ù“Ø®Ø±ÛŒ ØªØ§Ø±ÛŒØ® 16 Ø¬ÙˆÙ† 2020"],
                     pic: "05",
-                    topic: " داغ اس عہدِ ستم کا دِل سے دہونا ہے ابھی",
+                    topic: " Ø¯Ø§Øº Ø§Ø³ Ø¹ÛØ¯Ù Ø³ØªÙ… Ú©Ø§ Ø¯ÙÙ„ Ø³Û’ Ø¯ÛÙˆÙ†Ø§ ÛÛ’ Ø§Ø¨Ú¾ÛŒ",
                     video: "https://www.youtube.com/embed/js8DJ6msW7M"
                 }, {
-                    title: "پنجابی ٹاکرا",
-                    rules: ["تقریر دا کُل ویلہ تن توں پنج منٹ ہووے گا-(3-5", "کاغذ پا پرچے توں ویکھ کے پڑھن دی اجازت نہیں ہووے گی", "سر پنچاں دا فیصلہ حتمی ہووے گا۔", "مقابلے وچ پیلی، دوجی تے تیجی پوزیشن تے آن والیاں نوں انعامات دتے جاون گے۔", "– بہترین بُلار نوں بابا بُلھے شاہ ٹرافی دتی جاوے گی۔", " رجسٹریشن دی آخری تاریخ 16 جون 2020"],
+                    title: "Ù¾Ù†Ø¬Ø§Ø¨ÛŒ Ù¹Ø§Ú©Ø±Ø§",
+                    rules: ["ØªÙ‚Ø±ÛŒØ± Ø¯Ø§ Ú©ÙÙ„ ÙˆÛŒÙ„Û ØªÙ† ØªÙˆÚº Ù¾Ù†Ø¬ Ù…Ù†Ù¹ ÛÙˆÙˆÛ’ Ú¯Ø§-(3-5", "Ú©Ø§ØºØ° Ù¾Ø§ Ù¾Ø±Ú†Û’ ØªÙˆÚº ÙˆÛŒÚ©Ú¾ Ú©Û’ Ù¾Ú‘Ú¾Ù† Ø¯ÛŒ Ø§Ø¬Ø§Ø²Øª Ù†ÛÛŒÚº ÛÙˆÙˆÛ’ Ú¯ÛŒ", "Ø³Ø± Ù¾Ù†Ú†Ø§Úº Ø¯Ø§ ÙÛŒØµÙ„Û Ø­ØªÙ…ÛŒ ÛÙˆÙˆÛ’ Ú¯Ø§Û”", "Ù…Ù‚Ø§Ø¨Ù„Û’ ÙˆÚ† Ù¾ÛŒÙ„ÛŒØŒ Ø¯ÙˆØ¬ÛŒ ØªÛ’ ØªÛŒØ¬ÛŒ Ù¾ÙˆØ²ÛŒØ´Ù† ØªÛ’ Ø§Ù“Ù† ÙˆØ§Ù„ÛŒØ§Úº Ù†ÙˆÚº Ø§Ù†Ø¹Ø§Ù…Ø§Øª Ø¯ØªÛ’ Ø¬Ø§ÙˆÙ† Ú¯Û’Û”", "â€“ Ø¨ÛØªØ±ÛŒÙ† Ø¨ÙÙ„Ø§Ø± Ù†ÙˆÚº Ø¨Ø§Ø¨Ø§ Ø¨ÙÙ„Ú¾Û’ Ø´Ø§Û Ù¹Ø±Ø§ÙÛŒ Ø¯ØªÛŒ Ø¬Ø§ÙˆÛ’ Ú¯ÛŒÛ”", " Ø±Ø¬Ø³Ù¹Ø±ÛŒØ´Ù† Ø¯ÛŒ Ø§Ù“Ø®Ø±ÛŒ ØªØ§Ø±ÛŒØ® 16 Ø¬ÙˆÙ† 2020"],
                     pic: "06",
                     video: "https://www.youtube.com/embed/WyPcEcDJ7c4",
-                    topic: "ہن سکون اے"
+                    topic: "ÛÙ† Ø³Ú©ÙˆÙ† Ø§Û’"
                 }, {
                     title: "National Song Competition",
-                    text: "This competition is related to your vocal and compositional skills. You can participate in this competition by sending us a patriotic and inspirational national song’s (Milli Nagma) video on the following topic.",
+                    text: "This competition is related to your vocal and compositional skills. You can participate in this competition by sending us a patriotic and inspirational national songâ€™s (Milli Nagma) video on the following topic.",
                     judge: ["Content", "Scale", "Rhythm", "Presentation"],
                     rules: ["Time duration for the national song (milli nagma) should not exceed 4 minutes.", "Negative marking will be done in case of exceeding the time limit.", "Use of indecent words and sentences shall lead towards immediate disqualification of the contestant.", "Dress code should be formal.", "National Language (Urdu) should be used for recording the national songs.", "The decision of the judge/s will be final.", "Get yourself registered up till June 27th, 2020."],
                     pic: "07",
@@ -17296,7 +17296,7 @@
                     color: "#626262",
                     "text-align": "left"
                 }
-            }, [e._v("*Note: The acceptance of Board/University Fee is subject to management’s approval/college dues clearance.")])], 1)])])])
+            }, [e._v("*Note: The acceptance of Board/University Fee is subject to managementâ€™s approval/college dues clearance.")])], 1)])])])
         }
           , ma = []
           , ga = function(e) {
