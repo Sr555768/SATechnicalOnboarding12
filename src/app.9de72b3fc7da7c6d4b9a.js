@@ -4394,11 +4394,11 @@
                 this.apiLoading = !0,
                 this.service.resetPassword(this.form.username, this.form.cnic).then((function(t) {
                     e.apiLoading = !1,
-                    t.password ? e.error = "Your newly generated password is " + t.password : e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on 080078608 to get your issue resolved promptly."
+                    t.password ? e.error = "Your newly generated password is " + t.password : e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on +92-300000 to get your issue resolved promptly."
                 }
                 )).catch((function(t) {
                     e.apiLoading = !1,
-                    e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on 080078608 to get your issue resolved promptly."
+                    e.error = "Dear student. Seems like you are facing an issue logging in. Kindly call on +92-3000000 to get your issue resolved promptly."
                 }
                 ))
             }
@@ -4444,7 +4444,7 @@
                         case 2:
                             return t = s.sent(),
                             "isprof" == t && this.$bvModal.show("prof-option"),
-                            "failed" == t ? this.errorMessage = "Something went wrong. Kindly contact our helpline on 080078608 or lodge a complaint on complaint.pgc.edu.pk" : "not auth" == t ? this.errorMessage = "Please complete the Microsoft Authentication process to login" : "not registered" == t ? (this.errorMessage = "Your account is not registered in PGC E-learn. Kindly contact our helpline at 0800-78608",
+                            "failed" == t ? this.errorMessage = "Something went wrong. Kindly contact our helpline on +92-300000 or lodge a complaint on complaint.pgc.edu.pk" : "not auth" == t ? this.errorMessage = "Please complete the Microsoft Authentication process to login" : "not registered" == t ? (this.errorMessage = "Your account is not registered in PGC E-learn. Kindly contact our helpline at 0800-78608",
                             this.allowLogout = !0) : window.location.reload(),
                             [2]
                         }
@@ -4469,7 +4469,7 @@
                             return s = i.sent(),
                             "isprof" == s && this.$bvModal.show("prof-option"),
                             "failed" == s && null !== t ? (e && e.classList.remove("running"),
-                            this.errorMessage = "Incorrect password. Kindly contact our helpline on 080078608",
+                            this.errorMessage = "Incorrect password. Kindly contact our helpline on +92-300000",
                             t.classList.remove("error-visible"),
                             setTimeout((function() {
                                 t.classList.add("error-visible")
