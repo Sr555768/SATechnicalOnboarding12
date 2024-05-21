@@ -1327,7 +1327,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Physics")])]), i("swiper-slide", [i("div", {
+            }, [e._v("Terms")])]), i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal5",
@@ -1346,7 +1346,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Chemistry")])]), i("swiper-slide", [i("swiper-slide", [i("div", {
+            }, [e._v("BIOS")])]), i("swiper-slide", [i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal4",
@@ -1365,7 +1365,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Biology")])])], 1), i("swiper-slide", [i("swiper-slide", [i("div", {
+            }, [e._v("Nona")])])], 1), i("swiper-slide", [i("swiper-slide", [i("div", {
                 directives: [{
                     name: "b-modal",
                     rawName: "v-b-modal.modal6",
@@ -1384,7 +1384,7 @@
                 staticStyle: {
                     "text-transform": "uppercase"
                 }
-            }, [e._v("Mathematics")])])], 1), i("div", {
+            }, [e._v("Genral")])])], 1), i("div", {
                 staticClass: "swiper-pagination",
                 attrs: {
                     slot: "pagination"
@@ -1585,7 +1585,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("450+ Past Papers")])])])]), i("div", {
+            }, [e._v("10+ Projects")])])])]), i("div", {
                 staticClass: "col-sm-12 col-md-4"
             }, [i("div", {
                 staticClass: "featured-panel"
@@ -1600,7 +1600,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("15000+ MCQs")])])])]), i("div", {
+            }, [e._v("500+ Concepts")])])])]), i("div", {
                 staticClass: "col-sm-12 col-md-4"
             }, [i("div", {
                 staticClass: "featured-panel"
@@ -1615,7 +1615,7 @@
                     color: "white !important",
                     "padding-top": "10px"
                 }
-            }, [e._v("1500+ Video Lectures")])])])])])])])
+            }, [e._v("20+ Video Lectures")])])])])])])])
         }
         , function() {
             var e = this
