@@ -1266,7 +1266,7 @@
                     "font-size": "4.5rem",
                     "margin-bottom": "10px"
                 }
-            }, [i("b", [e._v("MLSA & MLSAPRO "), i("BR"), i("span", {
+            }, [i("b", [e._v("MLSAPRO   "), i("BR"), i("span", {
                 staticClass: "colored"
             }, [e._v("PORTAL.")])], 1)]), i("login")], 1)])])])]), i("section", {
                 staticClass: "bg-dark-theme text-center pb-0",
