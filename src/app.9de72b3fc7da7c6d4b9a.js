@@ -125,7 +125,7 @@
     "0b3c": function(e, t, s) {},
     1: function(e, t) {},
     "11c2": function(e, t, s) {
-        e.exports = s.p + "img/new-logo.d919b57b.png"
+        e.exports = s.p + "./founder1.png"
     },
     "142b": function(e, t) {
         e.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAwCAYAAABT9ym6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAzhJREFUeNrcWEGS2kAMHCjfQ+5bFeeQQ27sD+wXhH3BmhdseAHwgl1eYPMDfmD2BetbDjlAqnKP84JEImJr0MpjPJ4xJqpygT32jHoktTQaqA7lx7ubEH4SD1NngepWcrhCD/PeDzu0xsQTCJRw2KE1vnicezvoyBoj+PnFHseu5v/w++e2qxiZsPsNLu5yga5c64Hdr10vMOjArTDAd9qjEqzx3vU6B9f69Hkxhp9HuKKmQfb92yJuaI1MAIu55R6uAkDOhHHUDXVcw3gmWoRAIL+PLDcjBjBbg0V2jHZvQZlCG8f1X3SgMD7VxlOWRE++12PksQWIg6s0yB2FoARfOyHlJRCqStdAcKcmbPIM1iga5I61RJ2gcMYURjCRkECLKrYLLHxe2nl0j5RuV+jHlDuSuvggMFN4X7H334Aw5R5XeWROwYiSklJKyB2lIalJYE5AmL73lRBTIXbWyqO4SohLQfERyx2bGvdMDSX+gVnJXf0BISaKDQyWWYAoJTDeS5QaMGsDiEgAgXN9FDZgTO/7rbUqwEi5w7Tzr4FNiTE7J285Lxo1MBu6pme8f0f5a8nZicAsaXxWtSlYovxpm0f6IEP1n0hwrYqDJyEVf3XeRaGJkX0KUzXsOOlOnHZRCEROlXRO975FXyMMHIIYS/QI46Gyb8ptz7Vu0FDpiMr+J1igFECgzHBMu2/TlJvDGrc1RwUr1sqp0s1ppzmIKSyaMeBhS6NPfNBvqdU9OxMIFHKLsiUQ965FGVs6378Bwb6ZWx6nV15iBH0V3IWDMYFQ5N93vcvspFh8rItMIHqf2QlMoXokjS2CjQbpTIDPqAnRfyBaMy0/9p60Ex7GzculwDR1rRHrPb3+vyrXouaYHtwJA5HVnAb7E+yG/tNJz1ZzO8zMD5b6PcOci4ufR6h9kyr73jISSFHXSrJlrar+U6ITwLG8Vu0a5IqVQc5Yi7duMh4zOjVTvLSJmVLV9MRsXWsvxQSLmb1QayWWlsE19s6B4KSgNDbORjo7EQGs1L/W6J59g7v61EfW2lc8v2jJcs3toBNX5Q26sw8yPZCIu1bBKC66Quts0LVm6roFyWT5V4ABANZ3a7OBs10eAAAAAElFTkSuQmCC"
@@ -520,7 +520,7 @@
         e.exports = s.p + "img/F.Sc (Engineering).3aea16a9.svg"
     },
     "5b09": function(e, t, s) {
-        e.exports = s.p + "img/ic_logo.0c810f4e.png"
+        e.exports = s.p + "./founder1.png"
     },
     "5ba0": function(e, t, s) {
         e.exports = s.p + "img/Mathematics.506b8ff9.svg"
@@ -1292,8 +1292,25 @@
                     "text-align-last": "center",
                     "text-transform": "uppercase"
                 }
-            }, [e.isHadaf ? e._e() : i("span", [e._v("MLSAPRO")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" provides access to world class Technical Education to all the learning enthusiasts. The foremost aim of introducing "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Online Portal")]) : e._e(), e._v(" is to open doors of learning at your fingertips and this initiative unveils the opportunity to experience the virtual world and learn in a different and easier manner. The design of this portal offers Ã¢â‚¬Å“just in timeÃ¢â‚¬Â information and relevant course based material for fast learning.\nThis all in one student guidance portal brings to you "), i("b", [e._v("MCQs")]), e._v(", "), i("b", [e._v("Interactive Videos")]), e._v(", "), i("b", [e._v("Questionaiers")]), e._v(" and "), i("b", [e._v("Multiple Campus Management Features")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
-                staticClass: "bg-light featured featured-3 text-center",
+            }, [
+  i("span", [e._v("If you're a Microsoft Learn Student Ambassadors Professional Chapter member, welcome to MLSAPRO! MLSAPRO offers access to world-class technical education for all learning enthusiasts. Our primary goal is to introduce you to E-learn by MLSAPRO, our online portal designed to bring learning to your fingertips. This initiative opens doors to experiencing the virtual world and facilitates learning in a different, easier manner. Our portal provides 'just-in-time' information and relevant course materials for efficient learning. This all-in-one student guidance portal brings you MCQs, interactive videos, questionnaires, and multiple campus management features. E-learn by MLSAPRO modifies your learning style, reinforces concepts, and tracks your progress, guiding you towards perfection.")]),
+  e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(),
+  e._v(" provides access to world class Technical Education to all the learning enthusiasts. The foremost aim of introducing "),
+  e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]),
+  e.isHadaf ? i("span", [e._v("Our Online Portal")]) : e._e(),
+  e._v(" is to open doors of learning at your fingertips and this initiative unveils the opportunity to experience the virtual world and learn in a different and easier manner. The design of this portal offers Ã¢â‚¬Å“just in timeÃ¢â‚¬Â information and relevant course based material for fast learning.\nThis all in one student guidance portal brings to you "),
+  i("b", [e._v("Talks")]),
+  e._v(", "),
+  i("b", [e._v("Interactive Videos")]),
+  e._v(", "),
+  i("b", [e._v("Questionaiers")]),
+  e._v(" and "),
+  i("b", [e._v("Multiple Campus Management Features")]),
+  e._v(". "),
+  e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]),
+  e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(),
+  e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")
+]",
                 attrs: {
                     id: "demo"
                 }
