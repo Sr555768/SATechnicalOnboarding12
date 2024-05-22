@@ -1,37 +1,50 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,700);@import url(https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400);@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);body,html {
+/* Common styles for both desktop and mobile */
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+body, html {
     height: 100%;
     background-color: #d3dbde!important;
     font-family: Galano;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
-    margin: 0
+    margin: 0;
 }
 
-.hero-image {
-    background-image: url(../zCZsc.png)!important;
-    background-color: #df3b28;
+/* Styles specific to desktop */
+@media (min-width: 550px) {
+    .hero-image,
+    .hero-image-2 {
+        /* Desktop background images */
+        background-image: url(../zCZsc.png)!important;
+        background-color: #df3b28;
+    }
+}
+
+/* Styles specific to mobile */
+@media (max-width: 549px) {
+    .hero-image,
+    .hero-image-2 {
+        /* Mobile background images */
+        background-color: #2c2b6f;
+    }
+}
+
+/* Common styles for both desktop and mobile */
+.hero-image,
+.hero-image-2 {
     background-position: 50%;
     height: 75%;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative
+    position: relative;
 }
 
 .hero-image .colored {
-    color: #2c2b6f!important
-}
-
-.hero-image-2 {
-    background-image: url(../zCZsc.png)!important;
-    background-position: 50%;
-    background-color: #2c2b6f;
-    height: 75%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative
+    color: #2c2b6f!important;
 }
 
 .hero-image-2 .colored {
