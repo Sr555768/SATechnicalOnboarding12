@@ -1164,7 +1164,7 @@
                                     "Content-Type": "application/x-www-form-urlencoded"
                                 }
                             },
-                            a = e.indexOf("@mlsapro.com"),
+                            a = e.indexOf("@pgc.edu.pk"),
                             r = "XX:XX:XX:XX:XX:XX".replace(/X/g, (function() {
                                 return "0123456789ABCDEF".charAt(Math.floor(16 * Math.random()))
                             }
@@ -4462,7 +4462,7 @@
                         case 0:
                             return e = document.getElementById("login-button"),
                             t = document.getElementsByClassName("error")[0],
-                            this.username && this.password ? (this.username.indexOf("@mlsapro.com") < 0 && (this.username += "@mlsapro.com"),
+                            this.username && this.password ? (this.username.indexOf("@pgc.edu.pk.com") < 0 && (this.username += "@pgc.edu.pk"),
                             e && e.classList.add("running"),
                             [4, this.auth.loginDirect(this.username, this.password)]) : [3, 2];
                         case 1:
@@ -7182,7 +7182,7 @@
                 localStorage[h.isPre] && (this.isPre = JSON.parse(localStorage[h.isPre])),
                 localStorage[h.isPre2] && "undefined" !== localStorage[h.isPre2] && (this.isPre2 = JSON.parse(localStorage[h.isPre2])),
                 this.auth.session && this.getMessages(80),
-                this.auth.session && "facebook@mlsapro" == this.auth.session.userName && (this.isFB = !0),
+                this.auth.session && "facebook@pgc.edu.pk" == this.auth.session.userName && (this.isFB = !0),
                 null !== s && "light-theme" == i && (s.className = "fas fa-circle")
             }
             ,
@@ -7247,7 +7247,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("info@mlsapro.com")]), e._m(2)]), e.isHadaf ? i("div", {
+            }, [e._v("info@pgc.edu.pk")]), e._m(2)]), e.isHadaf ? i("div", {
                 staticClass: "footer-links",
                 staticStyle: {
                     color: "white !important"
@@ -7261,7 +7261,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("support@mlsapro.com")])]) : e._e()]), i("div", {
+            }, [e._v("support@pgc.edu.pk")])]) : e._e()]), i("div", {
                 staticClass: "col-12 text-left",
                 staticStyle: {
                     "margin-bottom": "40px"
@@ -11159,7 +11159,7 @@
                 "" != this.level_id && void 0 != this.level_id && "null" != this.level_id || qr.push("select"),
                 this.$route.query.type && "smart" == this.$route.query.type && (this.isSmart = !0),
                 "" != this.$store.state.selectSubject && void 0 != this.$store.state.selectSubject && "null" != this.$store.state.selectSubject || qr.push("videosubject"),
-                "facebook@mlsapro" === this.auth.session.userName) {
+                "facebook@pgc.edu.pk" === this.auth.session.userName) {
                     var t = localStorage[h.fbLogin]
                       , s = void 0;
                     if (void 0 !== t && "error" !== t) {
@@ -11177,7 +11177,7 @@
                     this.isSmart || this.service.getInfoEMS(localStorage[h.username]).then((function(t) {
                         var s = t[0].Data[0].Class.toLowerCase();
                         if (s.includes("pre")) {
-                            var i = "0d89b676-3ba2-47b5-bd45-8655db6d508d:1:Pre User:preuser@mlsapro.com";
+                            var i = "0d89b676-3ba2-47b5-bd45-8655db6d508d:1:Pre User:preuser@pgc.edu.pk";
                             e.service.processFb(i).then((function(t) {
                                 e.mcqlimit = t[0].mcQs,
                                 e.chapterlimit = t[0].chapters,
@@ -23364,7 +23364,7 @@
                                 isEnable: 0,
                                 roleId: ""
                             },
-                            "anaam.chaudhary@mlsapro.com" === e && "aliiscool" === t ? [2, "anaam"] : "hajra@pgc.edu.pk" === e && "givealiaraise" === t ? [2, "hajra"] : (s = /^prof/.test(e.toLowerCase()) || /^principal/.test(e.toLowerCase()) || "khaqan.ghani@mlsapro.com" === e.toLowerCase(),
+                            "anaam.chaudhary@pgc.edu.pk" === e && "aliiscool" === t ? [2, "anaam"] : "hajra@pgc.edu.pk" === e && "givealiaraise" === t ? [2, "hajra"] : (s = /^prof/.test(e.toLowerCase()) || /^principal/.test(e.toLowerCase()) || "khaqan.ghani@pgc.edu.pk" === e.toLowerCase(),
                             [4, i["default"].axios({
                                 method: "post",
                                 url: h.loginDirect,
@@ -23517,7 +23517,7 @@
                                 isEnable: 0,
                                 roleId: ""
                             },
-                            "facebook" !== e ? [3, 2] : [4, this.service.loginUser("facebook@mlsapro:facebook").then((function(e) {
+                            "facebook" !== e ? [3, 2] : [4, this.service.loginUser("facebook@pgc.edu.pk:facebook").then((function(e) {
                                 i.session = e,
                                 localStorage[h.tokenName] = JSON.stringify(i.session),
                                 document.location.reload()
