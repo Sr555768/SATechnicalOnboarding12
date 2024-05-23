@@ -7247,7 +7247,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("info@pgc.edu.pk")]), e._m(2)]), e.isHadaf ? i("div", {
+            }, [e._v("info@mlsapro.com")]), e._m(2)]), e.isHadaf ? i("div", {
                 staticClass: "footer-links",
                 staticStyle: {
                     color: "white !important"
