@@ -9,7 +9,7 @@
 }
 
 .hero-image {
-    background-image: url(../teamred.png)!important;
+    background-image: url(../team.png)!important;
     background-color: #df3b28;
     background-position: 50%;
     height: 75%;
@@ -24,7 +24,7 @@
 }
 
 .hero-image-2 {
-    background-image: url(../team.png)!important;
+    background-image: url(../teamred.png)!important;
     background-position: 50%;
     background-color: #2c2b6f;
     height: 75%;
