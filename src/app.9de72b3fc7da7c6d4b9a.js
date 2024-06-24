@@ -1164,7 +1164,7 @@
                                     "Content-Type": "application/x-www-form-urlencoded"
                                 }
                             },
-                            a = e.indexOf("@pgc.edu.pk"),
+                            a = e.indexOf("@mlsapro.com"),
                             r = "XX:XX:XX:XX:XX:XX".replace(/X/g, (function() {
                                 return "0123456789ABCDEF".charAt(Math.floor(16 * Math.random()))
                             }
@@ -1292,7 +1292,7 @@
                     "text-align-last": "center",
                     "text-transform": "uppercase"
                 }
-            }, [e.isHadaf ? e._e() : i("span", [e._v("If you're a Microsoft Learn Student Ambassadors Professional Chapter member")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" welcome to MLSAPRO "), e.isHadaf ? e._e() : i("span", [e._v(" We offers access to world-class technical education for all learning enthusiasts.")]), e.isHadaf ? i("span", [e._v("v")]) : e._e(), e._v(" our online portal designed to bring learning to your fingertips "), i("b", [e._v("This initiative opens doors to experiencing the virtual world and facilitates learning in a different, easier manner. Our portal provides 'just-in-time' information and relevant course materials for efficient learning.")]), e._v(", "), i("b", [e._v("This all-in-one student guidance portal brings you Talks, interactive videos, Questionnaires")]), e._v(", "), i("b", [e._v("E-learn by MLSAPRO modifies your learning style")]), e._v(" and "), i("b", [e._v("v")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("reinforces concepts")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
+            }, [e.isHadaf ? e._e() : i("span", [e._v("MLSAPRO")]), e.isHadaf ? i("span", [e._v("Hadaf")]) : e._e(), e._v(" provides access to world class Technical Education to all the learning enthusiasts. The foremost aim of introducing "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Online Portal")]) : e._e(), e._v(" is to open doors of learning at your fingertips and this initiative unveils the opportunity to experience the virtual world and learn in a different and easier manner. The design of this portal offers ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œjust in timeÃƒÂ¢Ã¢â€šÂ¬Ã‚Â information and relevant course based material for fast learning.\nThis all in one student guidance portal brings to you "), i("b", [e._v("MCQs")]), e._v(", "), i("b", [e._v("Interactive Videos")]), e._v(", "), i("b", [e._v("Questionaiers")]), e._v(" and "), i("b", [e._v("Multiple Campus Management Features")]), e._v(". "), e.isHadaf ? e._e() : i("span", [e._v("E-learn by MLSAPRO")]), e.isHadaf ? i("span", [e._v("Our Portal")]) : e._e(), e._v(" modifies your learning style, strengthens your concepts and tracks your progress to help lead you to the way of perfection.")])])])])])]), e._m(0), e._m(1), i("section", {
                 staticClass: "bg-light featured featured-3 text-center",
                 attrs: {
                     id: "demo"
@@ -4462,7 +4462,7 @@
                         case 0:
                             return e = document.getElementById("login-button"),
                             t = document.getElementsByClassName("error")[0],
-                            this.username && this.password ? (this.username.indexOf("@pgc.edu.pk.com") < 0 && (this.username += "@pgc.edu.pk"),
+                            this.username && this.password ? (this.username.indexOf("@mlsapro.com") < 0 && (this.username += "@mlsapro.com"),
                             e && e.classList.add("running"),
                             [4, this.auth.loginDirect(this.username, this.password)]) : [3, 2];
                         case 1:
@@ -7177,12 +7177,12 @@
                   , i = localStorage[h.buttonState];
                 if (this.auth.session) {
                     var a = this.auth.session.userName;
-                    this.isProf = /^prof/.test(a.toLowerCase()) || /^principal/.test(a.toLowerCase()) || "khaqan.ghani@pgc.edu.pk" === a.toLowerCase()
+                    this.isProf = /^prof/.test(a.toLowerCase()) || /^principal/.test(a.toLowerCase()) || "khaqan.ghani@mlsapro.com" === a.toLowerCase()
                 }
                 localStorage[h.isPre] && (this.isPre = JSON.parse(localStorage[h.isPre])),
                 localStorage[h.isPre2] && "undefined" !== localStorage[h.isPre2] && (this.isPre2 = JSON.parse(localStorage[h.isPre2])),
                 this.auth.session && this.getMessages(80),
-                this.auth.session && "facebook@pgc.edu.pk" == this.auth.session.userName && (this.isFB = !0),
+                this.auth.session && "facebook@mlsapro.com" == this.auth.session.userName && (this.isFB = !0),
                 null !== s && "light-theme" == i && (s.className = "fas fa-circle")
             }
             ,
@@ -7242,7 +7242,7 @@
                 staticStyle: {
                     "font-weight": "300"
                 }
-            }, [e._v("92-30000")]), i("h3", {
+            }, [e._v("0800-78608")]), i("h3", {
                 staticStyle: {
                     "font-weight": "300",
                     "margin-bottom": "30px"
@@ -7261,7 +7261,7 @@
                     "font-weight": "300",
                     "margin-bottom": "30px"
                 }
-            }, [e._v("support@pgc.edu.pk")])]) : e._e()]), i("div", {
+            }, [e._v("support@mlsapro.com")])]) : e._e()]), i("div", {
                 staticClass: "col-12 text-left",
                 staticStyle: {
                     "margin-bottom": "40px"
@@ -11159,7 +11159,7 @@
                 "" != this.level_id && void 0 != this.level_id && "null" != this.level_id || qr.push("select"),
                 this.$route.query.type && "smart" == this.$route.query.type && (this.isSmart = !0),
                 "" != this.$store.state.selectSubject && void 0 != this.$store.state.selectSubject && "null" != this.$store.state.selectSubject || qr.push("videosubject"),
-                "facebook@pgc.edu.pk" === this.auth.session.userName) {
+                "facebook@mlsapro.com" === this.auth.session.userName) {
                     var t = localStorage[h.fbLogin]
                       , s = void 0;
                     if (void 0 !== t && "error" !== t) {
@@ -11177,7 +11177,7 @@
                     this.isSmart || this.service.getInfoEMS(localStorage[h.username]).then((function(t) {
                         var s = t[0].Data[0].Class.toLowerCase();
                         if (s.includes("pre")) {
-                            var i = "0d89b676-3ba2-47b5-bd45-8655db6d508d:1:Pre User:preuser@pgc.edu.pk";
+                            var i = "0d89b676-3ba2-47b5-bd45-8655db6d508d:1:Pre User:preuser@mlsapro.com";
                             e.service.processFb(i).then((function(t) {
                                 e.mcqlimit = t[0].mcQs,
                                 e.chapterlimit = t[0].chapters,
@@ -15224,10 +15224,10 @@
                     "font-weight": "700"
                 },
                 attrs: {
-                    href: "mailto:competitions@pgc.edu.pk",
+                    href: "mailto:competitions@mlsapro.com",
                     target: "_blank"
                 }
-            }, [e._v("competitions@pgc.edu.pk")]), e._v(" along with your username.\n        ")])
+            }, [e._v("competitions@mlsapro.com")]), e._v(" along with your username.\n        ")])
         }
         , function() {
             var e = this
@@ -15235,7 +15235,7 @@
               , s = e._self._c || t;
             return s("a", {
                 attrs: {
-                    href: "mailto:competitions@pgc.edu.pk",
+                    href: "mailto:competitions@mlsapro.com",
                     target: "_blank"
                 }
             }, [s("button", {
@@ -23364,7 +23364,7 @@
                                 isEnable: 0,
                                 roleId: ""
                             },
-                            "anaam.chaudhary@pgc.edu.pk" === e && "aliiscool" === t ? [2, "anaam"] : "hajra@pgc.edu.pk" === e && "givealiaraise" === t ? [2, "hajra"] : (s = /^prof/.test(e.toLowerCase()) || /^principal/.test(e.toLowerCase()) || "khaqan.ghani@pgc.edu.pk" === e.toLowerCase(),
+                            "anaam.chaudhary@mlsapro.com" === e && "aliiscool" === t ? [2, "anaam"] : "hajra@mlsapro.com" === e && "givealiaraise" === t ? [2, "hajra"] : (s = /^prof/.test(e.toLowerCase()) || /^principal/.test(e.toLowerCase()) || "khaqan.ghani@mlsapro.com" === e.toLowerCase(),
                             [4, i["default"].axios({
                                 method: "post",
                                 url: h.loginDirect,
@@ -23517,7 +23517,7 @@
                                 isEnable: 0,
                                 roleId: ""
                             },
-                            "facebook" !== e ? [3, 2] : [4, this.service.loginUser("facebook@pgc.edu.pk:facebook").then((function(e) {
+                            "facebook" !== e ? [3, 2] : [4, this.service.loginUser("facebook@mlsapro.com:facebook").then((function(e) {
                                 i.session = e,
                                 localStorage[h.tokenName] = JSON.stringify(i.session),
                                 document.location.reload()
@@ -23823,3 +23823,4 @@
     }
 });
 //# sourceMappingURL=app.9de72b3fc7da7c6d4b9a.js.map
+
